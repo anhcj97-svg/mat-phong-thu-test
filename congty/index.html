@@ -85,10 +85,13 @@ dialog label{display:block;margin:8px 0 2px;font-size:.85rem}
 <section id="tab-viec" class="card"><div class="row" style="justify-content:space-between;margin:0 0 10px"><h2 style="margin:0">📋 Bảng việc</h2><span><select id="filt" style="width:auto"></select> <button id="addTask">+ Việc mới</button></span></div><div class="board" id="board"></div></section>
 
 <section id="tab-don" class="card hide"><div class="row" style="justify-content:space-between;margin:0 0 10px"><h2 style="margin:0">💵 Đơn hàng & doanh thu</h2><button id="addOrder">+ Đơn mới</button></div>
-<div class="stats"><div class="stat">Hôm nay<b id="sToday">$0</b></div><div class="stat">Tháng này<b id="sMonth">$0</b></div><div class="stat">TB/ngày tháng này<b id="sAvg">$0</b></div></div>
+<div class="stats"><div class="stat">Hôm nay<b id="sToday">$0</b></div><div class="stat">7 ngày qua<b id="sWeek">$0</b></div><div class="stat">Tháng này<b id="sMonth">$0</b></div><div class="stat">TB/ngày tháng này<b id="sAvg">$0</b></div></div>
+<p id="autoInfo" style="font-size:.8rem;opacity:.75;margin:6px 0">🤖 Đang tải doanh thu tự động…</p>
 <div>Tiến độ hôm nay so với mục tiêu 20$: <span id="pct">0%</span></div><div class="bar"><i id="barI" style="width:0"></i></div>
+<h3 style="margin:14px 0 4px">📈 30 ngày gần nhất (vạch đỏ = mục tiêu 20$/ngày)</h3><div id="chart" style="overflow-x:auto"></div>
+<h3 style="margin:14px 0 4px">Theo nguồn (tháng này)</h3><div id="bySrc"></div>
 <div style="overflow-x:auto;margin-top:12px"><table><thead><tr><th>Ngày</th><th>Khách</th><th>Nền tảng</th><th>Giá (USD)</th><th>Trạng thái</th><th></th></tr></thead><tbody id="orders"></tbody></table></div>
-<p style="font-size:.8rem;opacity:.7">Doanh thu chỉ tính đơn ở trạng thái “Đã giao” hoặc “Đã nhận tiền”.</p></section>
+<p style="font-size:.8rem;opacity:.7">Doanh thu chỉ tính đơn ở trạng thái “Đã giao” hoặc “Đã nhận tiền”. Dòng 🤖 lấy tự động từ <code>data/revenue.json</code> (itch.io API / email thông báo); dòng tự nhập lưu trên trình duyệt này. Tiền Payoneer rút về không cộng vào doanh thu.</p></section>
 
 <section id="tab-lotrinh" class="card hide"><h2 style="margin:0">🗺️ Lộ trình 30 ngày</h2><div class="bar" style="margin:10px 0"><i id="rmBar"></i></div><div id="roadmap"></div></section>
 </main>
@@ -142,11 +145,16 @@ function render(){
   g.classList.toggle('active',act);g.querySelector('.cnt').textContent=a+' việc';g.onclick=()=>showMem(m)});
  const f=$('#filt').value;
  $('#board').innerHTML=COLS.map((c,ci)=>`<div class="col"><h3>${c} (${S.tasks.filter(t=>t.col===ci).length})</h3>${S.tasks.filter(t=>t.col===ci&&(!f||t.who===f)).map(t=>`<div class="task" style="border-left:6px solid ${mem(t.who).c}"><b>${esc(t.title)}</b>${t.note?`<div>${esc(t.note)}</div>`:''}<div class="who">👤 ${esc(mem(t.who).name)}</div><div class="act">${ci>0?`<button onclick="mv(${t.id},-1)">◀</button>`:''}${ci<3?`<button onclick="mv(${t.id},1)">▶</button>`:''}<button onclick="editTask(${t.id})">Sửa</button></div></div>`).join('')}</div>`).join('');
- const ord=[...S.orders].sort((a,b)=>b.date.localeCompare(a.date)),paid=o=>o.status==='Đã giao'||o.status==='Đã nhận tiền';
- const d=today(),mo=d.slice(0,7),sT=S.orders.filter(o=>paid(o)&&o.date===d).reduce((s,o)=>s+ +o.price,0),sM=S.orders.filter(o=>paid(o)&&o.date.startsWith(mo)).reduce((s,o)=>s+ +o.price,0);
- $('#sToday').textContent='$'+sT.toFixed(2);$('#sMonth').textContent='$'+sM.toFixed(2);$('#sAvg').textContent='$'+(sM/new Date().getDate()).toFixed(2);
+ const all=[...S.orders,...AUTO],ord=[...all].sort((a,b)=>b.date.localeCompare(a.date)),paid=o=>o.kind!=='payout'&&(o.status==='Đã giao'||o.status==='Đã nhận tiền');
+ const d=today(),mo=d.slice(0,7),sum=f=>all.filter(o=>paid(o)&&f(o)).reduce((s,o)=>s+ +o.price,0),dAgo=n=>{const x=new Date();x.setDate(x.getDate()-n);return x.toLocaleDateString('sv')};
+ const sT=sum(o=>o.date===d),sM=sum(o=>o.date.startsWith(mo)),sW=sum(o=>o.date>dAgo(7));
+ $('#sToday').textContent='$'+sT.toFixed(2);$('#sWeek').textContent='$'+sW.toFixed(2)+' / $140';$('#sMonth').textContent='$'+sM.toFixed(2);$('#sAvg').textContent='$'+(sM/new Date().getDate()).toFixed(2);
  const p=Math.min(100,sT/20*100);$('#pct').textContent=Math.round(sT/20*100)+'%';$('#barI').style.width=p+'%';
- $('#orders').innerHTML=ord.length?ord.map(o=>`<tr><td>${o.date}</td><td>${esc(o.client)}</td><td>${esc(o.plat)}</td><td>$${(+o.price).toFixed(2)}</td><td>${esc(o.status)}</td><td><button onclick="editOrder(${o.id})">Sửa</button></td></tr>`).join(''):'<tr><td colspan="6" style="opacity:.6">Chưa có đơn nào. Đơn đầu tiên sắp tới! 💪</td></tr>';
+ const days=[...Array(30)].map((_,i)=>dAgo(29-i)),vals=days.map(x=>sum(o=>o.date===x)),mx=Math.max(25,...vals),W=600,H=140,bw=W/30;
+ $('#chart').innerHTML=`<svg viewBox="0 0 ${W} ${H+18}" style="width:100%;min-width:420px;font:10px sans-serif">${vals.map((v,i)=>`<rect x="${i*bw+2}" y="${H-v/mx*H}" width="${bw-4}" height="${v/mx*H}" fill="${v>=20?'#6fae7a':'#e9b35b'}"><title>${days[i]}: $${v.toFixed(2)}</title></rect>`).join('')}<line x1="0" x2="${W}" y1="${H-20/mx*H}" y2="${H-20/mx*H}" stroke="#d33" stroke-dasharray="4"/><text x="0" y="${H+14}">${days[0].slice(5)}</text><text x="${W}" y="${H+14}" text-anchor="end">${days[29].slice(5)}</text></svg>`;
+ const src={};all.filter(o=>paid(o)&&o.date.startsWith(mo)).forEach(o=>{src[o.plat]=src[o.plat]||{n:0,v:0};src[o.plat].n++;src[o.plat].v+= +o.price});
+ $('#bySrc').innerHTML=Object.keys(src).length?'<table><tr><th>Nguồn</th><th>Số đơn</th><th>USD</th></tr>'+Object.entries(src).sort((a,b)=>b[1].v-a[1].v).map(([k,v])=>`<tr><td>${esc(k)}</td><td>${v.n}</td><td>$${v.v.toFixed(2)}</td></tr>`).join('')+'</table>':'<p style="opacity:.6">Chưa có doanh thu tháng này.</p>';
+ $('#orders').innerHTML=ord.length?ord.map(o=>`<tr><td>${o.date}</td><td>${o.auto?'🤖 ':''}${esc(o.client)}</td><td>${esc(o.plat)}</td><td>$${(+o.price).toFixed(2)}</td><td>${esc(o.status)}</td><td>${o.auto?'<small>tự động</small>':`<button onclick="editOrder(${o.id})">Sửa</button>`}</td></tr>`).join(''):'<tr><td colspan="6" style="opacity:.6">Chưa có đơn nào. Đơn đầu tiên sắp tới! 💪</td></tr>';
  let tot=0,dn=0;$('#roadmap').innerHTML=RM.map((w,wi)=>`<div class="week"><h3>${w[0]}</h3>${w[1].map((it,ii)=>{const k=wi+'-'+ii;tot++;if(S.road[k])dn++;return `<label><input type="checkbox" style="width:auto" ${S.road[k]?'checked':''} onchange="S.road['${k}']=this.checked;save()"> ${it}</label>`}).join('')}</div>`).join('');
  $('#rmBar').style.width=(dn/tot*100)+'%';
 }
@@ -188,5 +196,9 @@ async function showMeeting(m){$('#meetBack').classList.remove('hide');$('#meetTi
  $('#meetBody').innerHTML=h;$('#meetBody').scrollTop=0}
 $('#meetRoom').onclick=openMeetings;$('#meetBack').onclick=openMeetings;
 if(location.hash==='#hop')openMeetings();
+let AUTO=[];
+fetch('data/revenue.json?'+Date.now()).then(r=>r.json()).then(j=>{AUTO=(j.orders||[]).map(o=>({auto:1,date:o.date,client:o.item||(o.via==='api'?'itch.io API':'email'),plat:o.source,price:o.amount,status:o.kind==='payout'?'Tiền về Payoneer':o.status,kind:o.kind}));
+ $('#autoInfo').textContent=`🤖 Doanh thu tự động: ${AUTO.length} dòng · cập nhật lúc ${j.updated?new Date(j.updated).toLocaleString('vi-VN'):'chưa có'} · mục tiêu $${j.goal_per_day||20}/ngày`;render()})
+ .catch(()=>{$('#autoInfo').textContent='🤖 Chưa có dữ liệu tự động – đang dùng số nhập tay.'});
 render();
 </script></body></html>
