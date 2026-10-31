@@ -89,5 +89,79 @@
     ]
    }
   ]
+ },
+ {
+  "file": "2026-11-01_thao-luan-3.md",
+  "title": "Thảo luận 3 – Quy trình 24h",
+  "date": "2026-11-01",
+  "people": "MAT ↔ GPT",
+  "summary": [
+   {
+    "h": "Nguyên tắc",
+    "items": [
+     "24h là mục tiêu nội bộ, tính từ lúc anh Nhật duyệt đủ yêu cầu và ảnh gốc; hạn giao trên Fiverr vẫn là hạn bắt buộc.",
+     "Chưa quảng cáo giao 24h cho tới khi chạy thử 3 đơn giả lập (1 đơn Premium)."
+    ]
+   },
+   {
+    "h": "Phân vai",
+    "items": [
+     "Anh Nhật: nhắn khách, duyệt brief, duyệt bản cuối, bấm giao.",
+     "GPT: định hướng nghệ thuật, vẽ ảnh tĩnh, QC hình.",
+     "MAT: điều phối, dựng video 10s, QC kỹ thuật, đóng gói file."
+    ]
+   },
+   {
+    "ol": true,
+    "h": "Mốc thời gian 24h",
+    "items": [
+     "0–1h: nhận đơn, kiểm ảnh gốc, chốt brief.",
+     "1–3h: GPT lên phương án cảnh.",
+     "3–9h: vẽ ảnh tĩnh, giữ nguyên nhãn/logo/màu thật.",
+     "9–13h: MAT dựng video (gói Premium).",
+     "13–17h: QC hình + kỹ thuật.",
+     "17–20h: anh Nhật duyệt.",
+     "20–24h: đóng gói ORDER_XXXX và giao qua Fiverr."
+    ]
+   },
+   {
+    "h": "Sửa bài & rủi ro",
+    "items": [
+     "Basic 1 lần sửa, Standard/Premium 2 lần; đổi hẳn concept = phát sinh thêm.",
+     "Lỗi do mình thì sửa miễn phí.",
+     "Gia hạn phải gửi qua trang đơn, khách có 48h trả lời (Fiverr chính thức).",
+     "Đề xuất: giữ thời gian giao 3/4/5 ngày trong giai đoạn thử; đầu tiên ưu tiên Basic/Standard."
+    ]
+   }
+  ]
+ },
+ {
+  "file": "2026-11-01_bao-cao-hoc-tap-1.md",
+  "title": "Báo cáo học tập 1",
+  "date": "2026-11-01",
+  "people": "MAT + GPT",
+  "summary": [
+   {
+    "h": "GPT",
+    "items": [
+     "Đã nhận Quy tắc nguồn (xác nhận trong 'Ban bac - Thao luan').",
+     "Đã học xong tuần 1: hướng dẫn chính thức Fiverr, trích help.fiverr.com (tạo gig, gói giá, quy trình đơn, 80% thu nhập)."
+    ]
+   },
+   {
+    "h": "MAT",
+    "items": [
+     "Đã có giáo trình 11 module, quy tắc nguồn, quy trình vận hành, bảng giá đối thủ.",
+     "Còn 6 mục CHƯA XÁC MINH; trang Fiverr chặn tải trực tiếp (403); giáo trình chưa chia lịch theo tuần."
+    ]
+   },
+   {
+    "h": "Tiếp theo",
+    "items": [
+     "Chạy thử 3 đơn giả lập theo quy trình 24h.",
+     "Kiểm tra danh mục + giá tối thiểu trước khi đăng gig."
+    ]
+   }
+  ]
  }
 ]
