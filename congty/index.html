@@ -35,12 +35,23 @@ dialog label{display:block;margin:8px 0 2px;font-size:.85rem}
 .hide{display:none}
 @media(max-width:760px){.board{grid-template-columns:1fr 1fr}.hidem{display:none}}
 @media(max-width:460px){.board{grid-template-columns:1fr}}
+#meetRoom:hover rect{fill:#dcebfa}
+#dlgMeet{max-width:900px;width:96%;padding:0}#dlgMeet .mh{position:sticky;top:0;background:var(--paper);padding:12px 16px;border-bottom:2px dashed #0003;display:flex;gap:8px;align-items:center;justify-content:space-between;flex-wrap:wrap;z-index:2}
+#meetBody{padding:12px 16px;max-height:72vh;overflow:auto}
+.sum{background:#fff6d8;border:2px solid var(--ink);border-radius:14px 10px 15px 9px;padding:10px 14px;margin-bottom:14px}.sum h4{margin:6px 0 2px}.sum ul,.sum ol{margin:2px 0;padding-left:20px}
+.msg{display:flex;gap:8px;margin:12px 0;align-items:flex-start}.msg.gpt{flex-direction:row-reverse}
+.av{flex:0 0 38px;height:38px;border-radius:50%;border:2px solid var(--ink);display:grid;place-items:center;font-size:.7rem;font-weight:700}
+.msg.mat .av{background:#cfe9d4}.msg.gpt .av{background:#d4e2f5}
+.bub{max-width:80%;border:2px solid var(--ink);padding:8px 12px;border-radius:14px 14px 14px 4px;font-size:.9rem;line-height:1.45;overflow-x:auto}
+.msg.mat .bub{background:#eef8f0}.msg.gpt .bub{background:#eef3fb;border-radius:14px 14px 4px 14px}
+.bub p{margin:4px 0}.bub table{margin:6px 0;background:#fff}.bub th{background:#f1e8d6}.bub td,.bub th{border:1px solid #0002}
+.mlist button{display:block;width:100%;text-align:left;margin:6px 0}
 </style></head><body>
 <header><h1>🏠 Văn phòng ảo Studio MAT<small>Studio sản phẩm số – mục tiêu 20$/ngày</small></h1>
 <nav><button data-tab="viec" class="on">Bảng việc</button><button data-tab="don">Đơn & doanh thu</button><button data-tab="lotrinh">Lộ trình 30 ngày</button><button id="exp">⬇ Xuất JSON</button><label class="btn">⬆ Nhập JSON<input id="imp" type="file" accept=".json" hidden></label></nav></header>
 <main>
 <section id="office" class="card">
-<svg viewBox="0 0 800 545" aria-label="Văn phòng">
+<svg viewBox="0 0 800 735" aria-label="Văn phòng">
 <defs><filter id="wob"><feTurbulence type="fractalNoise" baseFrequency="0.03" numOctaves="2" seed="3"/><feDisplacementMap in="SourceGraphic" scale="3.5"/></filter></defs>
 <g filter="url(#wob)" fill="none" stroke="#3a3530" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
 <rect x="12" y="12" width="776" height="521" rx="10" fill="#fdf3e1"/>
@@ -51,8 +62,24 @@ dialog label{display:block;margin:8px 0 2px;font-size:.85rem}
 <path d="M690 515c0-20 10-30 20-30s20 10 20 30z" fill="#cde8c4"/><path d="M710 485v-25m0 8c-12-4-14-14-14-14m14 8c10-4 12-14 12-14"/>
 </g>
 <g id="desks"></g>
+
+<g id="meetRoom" style="cursor:pointer" filter="url(#wob)" stroke="#3a3530" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+<rect x="12" y="548" width="776" height="175" rx="10" fill="#eef4fb"/>
+<text x="400" y="578" text-anchor="middle" font-size="20" fill="#3a3530" stroke="none" font-weight="700">🗣️ Phòng họp</text>
+<rect x="640" y="585" width="120" height="70" rx="4" fill="#fff"/><path d="M655 605h80M655 620h60M655 635h70" stroke-width="1.6"/>
+<ellipse cx="400" cy="660" rx="150" ry="38" fill="#e9c99a"/><path d="M300 685l-8 28M500 685l8 28"/>
+<path d="M370 650h40v-10h-40z" fill="#fff"/><circle cx="440" cy="648" r="7" fill="#fff"/>
+<path d="M190 690q35-12 70 0l-4 22h-62z" fill="#6fae7a55"/><circle cx="225" cy="660" r="17" fill="#fbe3c8"/>
+<circle cx="219" cy="657" r="2" fill="#3a3530"/><circle cx="231" cy="657" r="2" fill="#3a3530"/><path d="M220 666q5 4 10 0"/>
+<text x="225" y="634" text-anchor="middle" font-size="14" fill="#3a3530" stroke="none">MAT</text>
+<path d="M540 690q35-12 70 0l-4 22h-62z" fill="#6c9bd255"/><circle cx="575" cy="660" r="17" fill="#d8e6f7"/>
+<circle cx="569" cy="657" r="2" fill="#3a3530"/><circle cx="581" cy="657" r="2" fill="#3a3530"/><path d="M570 666q5 4 10 0"/>
+<text x="575" y="634" text-anchor="middle" font-size="14" fill="#3a3530" stroke="none">GPT</text>
+<path d="M255 625q20-22 50-8q10 14-12 18l-14 6 4-9q-30-2-28-7z" fill="#fff" stroke-width="1.8"/>
+<path d="M545 625q-20-22-50-8q-10 14 12 18l14 6-4-9q30-2 28-7z" fill="#fff" stroke-width="1.8"/>
+</g>
 </svg>
-<p style="margin:4px 0 0;font-size:.85rem;opacity:.75">Bấm vào bàn để xem việc của từng người. Màn hình sáng xanh = đang có việc.</p>
+<p style="margin:4px 0 0;font-size:.85rem;opacity:.75">Bấm vào bàn để xem việc của từng người. Màn hình sáng xanh = đang có việc. Bấm vào <b>Phòng họp</b> để đọc biên bản họp MAT ↔ GPT.</p>
 </section>
 
 <section id="tab-viec" class="card"><div class="row" style="justify-content:space-between;margin:0 0 10px"><h2 style="margin:0">📋 Bảng việc</h2><span><select id="filt" style="width:auto"></select> <button id="addTask">+ Việc mới</button></span></div><div class="board" id="board"></div></section>
@@ -77,6 +104,7 @@ dialog label{display:block;margin:8px 0 2px;font-size:.85rem}
 <div class="row"><button type="button" id="oDel" style="color:#b33">Xóa</button><button value="cancel" formnovalidate>Hủy</button><button id="oSave" value="ok">Lưu</button></div></form></dialog>
 <dialog id="dlgMem"><h3 id="mTitle"></h3><p id="mRole" style="opacity:.75;margin-top:0"></p><div id="mList"></div><div class="row"><button onclick="dlgMem.close()">Đóng</button></div></dialog>
 
+<dialog id="dlgMeet"><div class="mh"><b id="meetTitle">🗣️ Phòng họp</b><span><button id="meetBack" class="hide">← Danh sách</button> <button onclick="dlgMeet.close()">Đóng</button></span></div><div id="meetBody"></div></dialog>
 <script>
 const $=s=>document.querySelector(s),KEY='mat-congty-v1';
 const MEM=[{id:'nhat',name:'Anh Nhật',role:'Giám đốc',desc:'Nhận việc, nói chuyện với khách, nhận tiền',c:'#e98a5b'},
@@ -138,5 +166,27 @@ $('#filt').innerHTML='<option value="">Tất cả</option>'+MEM.map(m=>`<option 
 document.querySelectorAll('nav [data-tab]').forEach(b=>b.onclick=()=>{document.querySelectorAll('nav [data-tab]').forEach(x=>x.classList.toggle('on',x===b));['viec','don','lotrinh'].forEach(t=>$('#tab-'+t).classList.toggle('hide',t!==b.dataset.tab))});
 $('#exp').onclick=()=>{const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify(S,null,2)],{type:'application/json'}));a.download='congty-'+today()+'.json';a.click()};
 $('#imp').onchange=e=>{const f=e.target.files[0];if(!f)return;f.text().then(t=>{try{const d=JSON.parse(t);if(!d.tasks||!d.orders)throw 0;d.road=d.road||{};S=d;save();alert('Đã nhập dữ liệu!')}catch{alert('File không hợp lệ')}});e.target.value=''};
+
+// ===== Phòng họp: thêm cuộc họp = thả file .md vào meetings/ và thêm 1 dòng vào meetings/index.json =====
+const MD=t=>{const L=t.split('\n');let o='',i=0;const inl=x=>esc(x).replace(/\*\*(.+?)\*\*/g,'<b>$1</b>').replace(/`(.+?)`/g,'<code>$1</code>');
+while(i<L.length){const l=L[i];
+ if(/^\s*\|/.test(l)&&L[i+1]&&/^\s*\|[\s:\-|]+\|\s*$/.test(L[i+1])){const row=r=>r.trim().replace(/^\||\|$/g,'').split('|').map(c=>inl(c.trim()));
+  o+='<table><tr>'+row(l).map(c=>'<th>'+c+'</th>').join('')+'</tr>';i+=2;while(i<L.length&&/^\s*\|/.test(L[i])){o+='<tr>'+row(L[i]).map(c=>'<td>'+c+'</td>').join('')+'</tr>';i++}o+='</table>';continue}
+ if(/^\s*[-*] /.test(l)){o+='<ul>';while(i<L.length&&/^\s*[-*] /.test(L[i])){o+='<li>'+inl(L[i].replace(/^\s*[-*] /,''))+'</li>';i++}o+='</ul>';continue}
+ const h=l.match(/^(#{1,4}) (.*)/);if(h){o+=`<h${h[1].length+2}>${inl(h[2])}</h${h[1].length+2}>`;i++;continue}
+ if(l.trim())o+='<p>'+inl(l)+'</p>';i++}return o};
+let MEETS=[];
+async function openMeetings(){dlgMeet.showModal();$('#meetBack').classList.add('hide');$('#meetTitle').textContent='🗣️ Phòng họp';$('#meetBody').innerHTML='Đang tải…';
+ try{MEETS=await (await fetch('meetings/index.json?'+Date.now())).json()}catch{$('#meetBody').innerHTML='Chưa có cuộc họp.';return}
+ $('#meetBody').innerHTML='<div class="mlist">'+MEETS.map((m,k)=>`<button data-k="${k}"><b>${esc(m.title)}</b><br><small>${esc(m.date)} · ${esc(m.people||'MAT ↔ GPT')}</small></button>`).join('')+'</div>';
+ $('#meetBody').querySelectorAll('[data-k]').forEach(b=>b.onclick=()=>showMeeting(MEETS[b.dataset.k]))}
+async function showMeeting(m){$('#meetBack').classList.remove('hide');$('#meetTitle').textContent='🗣️ '+m.title;$('#meetBody').innerHTML='Đang tải…';
+ const t=await (await fetch('meetings/'+m.file+'?'+Date.now())).text();
+ const turns=[];let head='';t.split('\n').forEach(l=>{const r=l.match(/^(MAT|GPT):\s?(.*)/);if(r)turns.push({who:r[1],txt:r[2]});else if(turns.length)turns[turns.length-1].txt+='\n'+l;else head+=l+'\n'});
+ let h='';if(m.summary)h+='<div class="sum"><b>📝 Tóm tắt (tiếng Việt)</b>'+m.summary.map(s=>`<h4>${esc(s.h)}</h4>`+(s.ol?'<ol>':'<ul>')+s.items.map(x=>'<li>'+esc(x)+'</li>').join('')+(s.ol?'</ol>':'</ul>')).join('')+'</div>';
+ h+=turns.map(x=>`<div class="msg ${x.who.toLowerCase()}"><div class="av">${x.who}</div><div class="bub">${MD(x.txt)}</div></div>`).join('');
+ $('#meetBody').innerHTML=h;$('#meetBody').scrollTop=0}
+$('#meetRoom').onclick=openMeetings;$('#meetBack').onclick=openMeetings;
+if(location.hash==='#hop')openMeetings();
 render();
 </script></body></html>

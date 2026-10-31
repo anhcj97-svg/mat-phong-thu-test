@@ -1,0 +1,49 @@
+[
+ {
+  "file": "2026-11-01_thao-luan-1.md",
+  "title": "Thảo luận 1 – Rủi ro, thị trường ngách, gói VFX",
+  "date": "2026-11-01",
+  "people": "MAT ↔ GPT",
+  "summary": [
+   {
+    "h": "3 rủi ro lớn",
+    "items": [
+     "Tài khoản Fiverr sai quốc gia (Hoa Kỳ) – chưa có kênh bán ổn định, không được lách xác minh.",
+     "Dàn trải quá nhiều sản phẩm/kênh cùng lúc trước khi có 1 kênh bán chạy.",
+     "Chưa có đánh giá + vài mẫu còn yếu (nến, lửa, vệt chém) → khó ra đơn đầu."
+    ]
+   },
+   {
+    "h": "Thị trường ngách đã chọn",
+    "items": [
+     "Ưu tiên 1: ảnh sản phẩm cà phê (túi cà phê là mẫu mạnh, dễ kể chuyện, khách có nhu cầu đều đặn).",
+     "Ưu tiên 2: mỹ phẩm/skincare (thị trường lớn nhưng cạnh tranh cao).",
+     "Tiêu đề gig: “I will create premium AI product photography for your coffee brand” – giá $15/$35/$60.",
+     "Ý tưởng: 3 thương hiệu cà phê giả lập từ 1 ảnh gốc để làm portfolio miễn phí; giữ nguyên nhãn/logo thật."
+    ]
+   },
+   {
+    "h": "Bổ sung gói VFX ($4.99)",
+    "items": [
+     "Soft Impact Burst – 8 khung, 3 màu (trắng, vàng, xanh).",
+     "Healing Aura – 12 khung lặp liền, 3 màu (xanh lá, vàng, xanh dương).",
+     "Magical Dash – 8 khung, vệt cong + 2 bóng mờ, 3 hướng.",
+     "Phát hành v1 ngay, cập nhật dần theo phản hồi."
+    ]
+   },
+   {
+    "ol": true,
+    "h": "Kế hoạch 7 bước",
+    "items": [
+     "Xử lý ticket đổi quốc gia Fiverr – Anh Nhật.",
+     "Tập trung gig đầu tiên vào ảnh cà phê, skincare là ngách 2 – MAT.",
+     "Xem 6 mẫu cạnh nhau để đánh giá – MAT + GPT.",
+     "Sửa mẫu nến, hoàn thiện portfolio cà phê – GPT (chỉ đạo nghệ thuật) + MAT (sản xuất).",
+     "Đăng gig cà phê $15/$35/$60 – MAT (GPT duyệt trình bày).",
+     "Phát hành Soft Glow VFX v1 $4.99, thêm 3 hiệu ứng mới – MAT + GPT.",
+     "Đạt 20$/ngày trong 30 ngày bằng kênh miễn phí (Fiverr, itch.io, Instagram, Pinterest, cộng đồng) – Anh Nhật + MAT + GPT."
+    ]
+   }
+  ]
+ }
+]
