@@ -40,15 +40,15 @@ dialog label{display:block;margin:8px 0 2px;font-size:.85rem}
 <nav><button data-tab="viec" class="on">Bảng việc</button><button data-tab="don">Đơn & doanh thu</button><button data-tab="lotrinh">Lộ trình 30 ngày</button><button id="exp">⬇ Xuất JSON</button><label class="btn">⬆ Nhập JSON<input id="imp" type="file" accept=".json" hidden></label></nav></header>
 <main>
 <section id="office" class="card">
-<svg viewBox="0 0 800 430" aria-label="Văn phòng">
+<svg viewBox="0 0 800 520" aria-label="Văn phòng">
 <defs><filter id="wob"><feTurbulence type="fractalNoise" baseFrequency="0.03" numOctaves="2" seed="3"/><feDisplacementMap in="SourceGraphic" scale="3.5"/></filter></defs>
 <g filter="url(#wob)" fill="none" stroke="#3a3530" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
-<rect x="12" y="12" width="776" height="406" rx="10" fill="#fdf3e1"/>
+<rect x="12" y="12" width="776" height="496" rx="10" fill="#fdf3e1"/>
 <path d="M12 70 H788" /><rect x="330" y="24" width="140" height="36" rx="4" fill="#cfe6f5"/><path d="M400 24v36M330 42h140"/>
 <path d="M40 60v-30h22v30M44 30c-6-10 4-18 7-8 3-10 13-2 7 8" fill="#cde8c4"/>
 <path d="M720 60v-32h40v32M728 36h24M728 46h24" fill="#f6d9a8"/>
-<ellipse cx="400" cy="250" rx="300" ry="135" stroke-dasharray="6 9" opacity=".35"/>
-<path d="M690 400c0-20 10-30 20-30s20 10 20 30z" fill="#cde8c4"/><path d="M710 370v-25m0 8c-12-4-14-14-14-14m14 8c10-4 12-14 12-14"/>
+<ellipse cx="400" cy="290" rx="300" ry="170" stroke-dasharray="6 9" opacity=".35"/>
+<path d="M690 490c0-20 10-30 20-30s20 10 20 30z" fill="#cde8c4"/><path d="M710 460v-25m0 8c-12-4-14-14-14-14m14 8c10-4 12-14 12-14"/>
 </g>
 <g id="desks"></g>
 </svg>
@@ -97,7 +97,7 @@ let S=JSON.parse(localStorage.getItem(KEY)||'null')||{tasks:[
 const save=()=>{localStorage.setItem(KEY,JSON.stringify(S));render()};
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const mem=id=>MEM.find(m=>m.id===id)||MEM[0];
-function deskSVG(m,i){const x=i%2?440:110,y=i<2?95:255;return `<g class="desk" data-id="${m.id}" filter="url(#wob)" stroke="#3a3530" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" transform="translate(${x},${y})">
+function deskSVG(m,i){const x=i%2?440:110,y=i<2?95:300;return `<g class="desk" data-id="${m.id}" filter="url(#wob)" stroke="#3a3530" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" transform="translate(${x},${y})">
 <ellipse cx="125" cy="128" rx="38" ry="12" fill="#0001" stroke="none"/>
 <path d="M95 100q30-10 60 0l-4 26h-52z" fill="${m.c}55"/><path d="M100 126l-6 18M150 126l6 18"/>
 <circle cx="125" cy="78" r="16" fill="#ffe9cf"/><path d="M110 74q15-16 30 0" fill="${m.c}"/><path d="M119 82q6 4 12 0"/><circle cx="119" cy="77" r="1.5" fill="#3a3530"/><circle cx="131" cy="77" r="1.5" fill="#3a3530"/>
