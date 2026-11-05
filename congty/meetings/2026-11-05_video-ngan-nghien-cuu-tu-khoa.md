@@ -305,3 +305,58 @@ Nguồn: searchengineland.com/hurricane-irma-no-1-top-trending-google-search-u-s
 - **(c) "Là gì": giải thích từ hot**
 
 Cả 3 khớp với shortlist ở mục 6. Nên đặt **lịch nội dung theo mùa**: Tết (bánh chưng, giao thừa), mùa thi (điểm chuẩn), Trung thu (đèn), 20/11 (thiệp), ra mắt iPhone tháng 9, và các AI mới ra.
+
+## 11. Xếp hạng lĩnh vực từ các bảng Year in Search 2017–2025
+
+**Cách tính:**
+- Chỉ dùng các bảng top 10 tổng **đã có trong mục 8 và 9**: Toàn cầu và Mỹ của 2017–2022, 2024, 2025 (mỗi vùng 8 bảng, 80 mục); Việt Nam của 2017, 2018, 2019, 2021, 2022, 2024, 2025 (7 bảng, 70 mục).
+- **Không tính** năm 2023 (chỉ có bảng Tin tức), Việt Nam 2020 (thiếu thứ tự) và năm 2026 (chưa có).
+- Mỗi mục được 1 điểm. Điểm Việt Nam nhân **1,2** để ưu tiên kênh tiếng Việt.
+- Các kênh xem bóng đá (VTV6, VTC3, Xoilac TV, VTV2) được **xếp vào Thể thao/bóng đá**.
+- Phân loại do em làm. Mục nào nằm giữa hai nhóm (ví dụ "Phụ nữ trong các ngành STEM", "Tiến trình biến đổi khí hậu") được xếp vào Tin nóng/xã hội.
+
+### A. Bảng xếp hạng lĩnh vực
+
+| # | Lĩnh vực | Toàn cầu (/80) | Mỹ (/80) | VN (/70) | Điểm (VN×1,2) | Số năm xuất hiện | Bền cho video ngắn? | Rủi ro | Dạng video gợi ý |
+|---|---|---|---|---|---|---|---|---|---|
+| 1 | **Thể thao / bóng đá** (World Cup, Euro, U23, AFF, cricket, NBA, Olympic, kênh xem bóng) | 31 | 8 | 21 | **64,2** | 8/8 | Có, theo **lịch giải** (biết trước) | **Bản quyền clip trận đấu rất cao**; nóng theo giải | Lịch thi đấu, đồ họa thống kê, hoạt hình tái hiện bàn thắng (không dùng clip thật), dự đoán, quiz |
+| 2 | **Người nổi tiếng / qua đời** | 21 | 27 | 0 | 48,0 | 8/8 | Không, chỉ là sự kiện | Nhạy cảm, đúng sai, dùng hình ảnh người thật | Không nên làm ngách chính |
+| 3 | **Tin nóng / chính trị / thiên tai / vụ án** | 10 | 24 | 9 | 44,8 | 8/8 | Không, chỉ nóng vài ngày | Thông tin sai, chính sách nội dung nhạy cảm | Giải thích "là gì" ngắn, trung lập (ví dụ bão, cách phòng) |
+| 4 | **Giải trí: phim, series, nhạc** | 6 | 5 | 20 | 35,0 | 7/8 | Có (VN năm nào cũng có phim Hàn/Hoa/Việt) | **Bản quyền phim và nhạc rất cao** | Bình luận, tóm tắt bằng hình tự vẽ, "giải thích kết phim", fan art AI có ghi nhãn |
+| 5 | **Công nghệ & AI** (iPhone, Zoom, Google Classroom, ChatGPT, Gemini, DeepSeek, Grok, Pixverse) | 9 | 6 | 8 | 24,6 | 6/8, tăng mạnh 2024–2025 | **Rất bền**, mỗi năm có sản phẩm mới | Thấp | Mẹo, so sánh, "1 prompt ra 1 kết quả", review |
+| 6 | **Học tập & thủ tục VN** (điểm chuẩn, đáp án THPT, OLM, Azota, K12, Vioedu) | 1 | 0 | 9 | 11,8 | 4/8 | Có, theo **mùa thi và mùa thủ tục** | Thấp, nhưng phải đúng thông tin | "Cách làm X trong 60 giây", hướng dẫn app học |
+| 7 | **Tiền: xổ số, cổ phiếu, trợ cấp** (Mega Millions, Powerball, AMC, Vietlott) | 0 | 6 | 1 | 7,2 | 4/8 | Trung bình | Dễ thành lời khuyên tài chính, cờ bạc | Không ưu tiên |
+| 8 | **Game & app viral** (Fidget Spinner, Wordle, Connections, Snaptik) | 2 | 4 | 0 | 6,0 | 4/8 | Trung bình, theo trend | Thấp | Mẹo chơi, "app hot tuần này" |
+| 9 | Thời tiết / du lịch | 0 | 0 | 1 | 1,2 | 1/8 | Có (bảng Du lịch riêng của VN năm nào cũng có) | Thấp | Cần quay thật |
+| 10 | Món ăn / đồ uống | 0 | 0 | 1 | 1,2 | 1/8 | **Có**, xem ghi chú dưới | Thấp | Công thức theo mùa |
+
+**Ghi chú quan trọng:** bảng tổng chỉ cho thấy **"chuyện gì nóng nhất"**. Các bảng chủ đề riêng của Google (Cách làm, Là gì, Công thức, Du lịch, Công cụ AI) không tính vào điểm trên nhưng **năm nào cũng có ở Việt Nam** khi lấy được: Cách làm (2020, 2023, 2024, 2025), Là gì (2023, 2025), Công cụ AI (2023, 2024, 2025), Du lịch (2020, 2022–2025). Đây là các nhu cầu **lặp lại và có thể lên kế hoạch trước**. Vì vậy chúng hợp làm ngách hơn tin nóng, dù điểm trong bảng tổng thấp.
+
+### B. Top 3 lĩnh vực
+
+**Top 3 tổng, theo mức quan tâm:**
+1. **Thể thao / bóng đá:** cao nhất ở toàn cầu và Việt Nam, năm nào cũng có, và **biết trước lịch** (World Cup, Euro, AFF, SEA Games).
+2. **Người nổi tiếng / qua đời:** đứng đầu ở Mỹ, nhưng xảy ra bất ngờ, không lên kế hoạch được.
+3. **Tin nóng / thiên tai / chính trị:** ở đâu cũng có, nhưng chỉ nóng ngắn và nhạy cảm.
+
+**Top 3 cho kênh tiếng Việt** (VN: thể thao 21, giải trí 20, học tập 9, tin 9, công nghệ 8):
+1. **Bóng đá:** 7/7 năm có, gồm cả các kênh xem bóng.
+2. **Phim, series, nhạc:** chủ yếu phim Hàn/Hoa và MV Việt. Nhu cầu cao nhưng rủi ro bản quyền.
+3. **Công nghệ & AI** (đồng hạng với học tập và thủ tục): năm 2025 có 5/10 là công cụ AI, xu hướng tăng rõ nhất.
+
+**Top 3 cho kênh tiếng Anh, thị trường thu nhập cao** (Toàn cầu + Mỹ: người nổi tiếng 48, thể thao 39, tin nóng 34, công nghệ 15, giải trí 11):
+1. **Người nổi tiếng:** nhu cầu cao nhưng không hợp đội làm video không lộ mặt bằng AI.
+2. **Thể thao:** cricket (Ấn Độ) và bóng đá (toàn cầu), NBA và NFL (Mỹ).
+3. **Tin nóng.**
+- **Lĩnh vực bền nhất trong nhóm này là Công nghệ & AI** (iPhone mỗi năm, Zoom, Gemini, DeepSeek), đồng thời có tiền quảng cáo cao nhất.
+
+### C. Kết luận để theo sát
+
+- **Theo dõi sát Top 3 về nhu cầu:** bóng đá, giải trí, công nghệ & AI. Bóng đá và giải trí chỉ làm dạng **không dùng clip có bản quyền** (đồ họa, hoạt hình, bình luận).
+- **Ngách chính để làm đều đặn:** Công nghệ & AI, cộng với "Cách làm" và "Là gì" theo mùa.
+- **Lịch theo dõi:**
+  - Bóng đá: AFF Cup (cuối năm), SEA Games, U23 châu Á, Euro và World Cup.
+  - Công nghệ: ra mắt iPhone tháng 9, các AI mới.
+  - Học tập: mùa thi tháng 6–7.
+  - Mùa lễ: Tết, Trung thu, 20/11.
+- **Cập nhật hằng năm:** khi Year in Search 2026 ra (thường đầu tháng 12), chấm điểm lại theo đúng cách này.
