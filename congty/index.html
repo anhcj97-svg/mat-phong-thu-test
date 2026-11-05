@@ -176,7 +176,7 @@ $('#exp').onclick=()=>{const a=document.createElement('a');a.href=URL.createObje
 $('#imp').onchange=e=>{const f=e.target.files[0];if(!f)return;f.text().then(t=>{try{const d=JSON.parse(t);if(!d.tasks||!d.orders)throw 0;d.road=d.road||{};S=d;save();alert('Đã nhập dữ liệu!')}catch{alert('File không hợp lệ')}});e.target.value=''};
 
 // ===== Phòng họp: thêm cuộc họp = thả file .md vào meetings/ và thêm 1 dòng vào meetings/index.json =====
-const MD=t=>{const L=t.split('\n');let o='',i=0;const inl=x=>esc(x).replace(/\*\*(.+?)\*\*/g,'<b>$1</b>').replace(/`(.+?)`/g,'<code>$1</code>');
+const MD=t=>{const L=t.split('\n');let o='',i=0;const inl=x=>esc(x).replace(/!\[([^\]]*)\]\(([^)\s]+)\)/g,(m,a,u)=>`<figure><img src="${/^https?:/.test(u)?u:'meetings/'+u}" alt="${a}" style="max-width:100%;border-radius:6px" loading="lazy"><figcaption><small>${a}</small></figcaption></figure>`).replace(/\[([^\]]+)\]\((https?:[^)\s]+)\)/g,'<a href="$2" target="_blank" rel="noopener">$1</a>').replace(/\*\*(.+?)\*\*/g,'<b>$1</b>').replace(/`(.+?)`/g,'<code>$1</code>');
 while(i<L.length){const l=L[i];
  if(/^\s*\|/.test(l)&&L[i+1]&&/^\s*\|[\s:\-|]+\|\s*$/.test(L[i+1])){const row=r=>r.trim().replace(/^\||\|$/g,'').split('|').map(c=>inl(c.trim()));
   o+='<table><tr>'+row(l).map(c=>'<th>'+c+'</th>').join('')+'</tr>';i+=2;while(i<L.length&&/^\s*\|/.test(L[i])){o+='<tr>'+row(L[i]).map(c=>'<td>'+c+'</td>').join('')+'</tr>';i++}o+='</table>';continue}
