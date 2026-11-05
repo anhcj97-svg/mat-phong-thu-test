@@ -153,3 +153,155 @@ Nguồn: techcrunch.com/2024/12/10/… ; pocket-lint.com/google-year-in-search-2
 **Chưa lấy được:** Year on TikTok 2024 bản chính thức, danh sách YouTube top trending/most searched, Year in Search Anh và Nhật, và danh sách từ khóa trên TikTok Creative Center (trang này cần đăng nhập).
 
 **Rút ra cho kênh:** cả 3 năm, các mục trending ổn định nhất là **công cụ AI** (Việt Nam 2024 và 2025, toàn cầu 2025), **"cách làm" và "là gì"** (đồ ăn, đồ handmade, thủ tục), và **meme hoặc trend AI** (AI action figure, polaroid). Phần lớn còn lại là sự kiện thể thao, chính trị, phim, chỉ nóng ngắn hạn và dễ dính bản quyền. Điều này củng cố hướng số 1 (mẹo AI tiếng Việt) và gợi ý thêm dạng video "Cách làm X" theo mùa (Trung thu, 20/11, Tết).
+
+## 9. Phụ lục: top tìm kiếm Google 2017–2023 (Year in Search, danh sách "tăng đột biến")
+
+*Nguồn gốc: trends.google.com/trends/yis/<năm>/GLOBAL|US|VN. Trang này chạy JavaScript nên em không đọc trực tiếp được. Các danh sách dưới đây lấy từ báo, blog trích nguyên văn bảng của Google (có ghi URL). Ô ghi "—" là chưa lấy được.*
+
+**2023.** Năm này Google không công bố danh sách "Searches" tổng cho Việt Nam, chỉ chia thành 9 chủ đề. Với toàn cầu và Mỹ, em chỉ lấy được danh sách **Tin tức (News)**, chưa lấy được danh sách tổng.
+
+| # | Toàn cầu – News | Mỹ – News |
+|---|---|---|
+| 1 | War in Israel and Gaza | War in Israel and Gaza |
+| 2 | Titanic submarine | Titanic submarine |
+| 3 | Turkey earthquake | Hurricane Hilary |
+| 4 | Hurricane Hilary | Hurricane Idalia |
+| 5 | Hurricane Idalia | Hurricane Lee |
+| 6 | Hurricane Lee | Maine shooting |
+| 7 | Maine shooting | Nashville shooting |
+| 8 | Nashville shooting | Maui fire |
+| 9 | Chandrayaan-3 | Idaho murder trial |
+| 10 | War in Sudan | Canada wildfires |
+
+Nguồn: readwrite.com/google-trends-2023-the-most-searched-topics-of-the-year
+
+**Việt Nam 2023** (brandsvietnam.com/…/337612): 9 chủ đề là Tìm kiếm về AI, Thể thao, Game, Du lịch, Phim chiếu rạp, Cách làm, Công thức món ăn, Định nghĩa – Là gì, Gần đây. Các mục đứng đầu được nêu:
+- **AI:** "robot trí tuệ nhân tạo đầu tiên của Việt Nam…"
+- **Thể thao:** AFF Cup, Inter Miami, World Cup nữ, SEA Games 32, Al Nassr
+- **Cách làm:** "cách làm định danh mức 2"
+- **Là gì:** số định danh VNeID, năng lượng tái tạo, botulinum, suy hô hấp
+- **Công thức:** bánh chưng, bò kho, bún bò Huế, sữa hạt
+- **Từ lóng GenZ:** flex, à lôi, kiwi kiwi
+- **Ẩm thực xu hướng:** gỏi gà măng cụt, cafe muối, bánh đồng xu phô mai
+- Bài báo không đăng đủ 10 mục theo thứ tự cho từng chủ đề.
+
+**2022**
+
+| # | Toàn cầu | Mỹ | Việt Nam |
+|---|---|---|---|
+| 1 | Wordle | Wordle | World Cup 2022 |
+| 2 | India vs England | Election results | Olm |
+| 3 | Ukraine | Betty White | Hẹn hò chốn công sở |
+| 4 | Queen Elizabeth | Queen Elizabeth | Big Mouth |
+| 5 | Ind vs SA | Bob Saget | Snaptik |
+| 6 | World Cup | Ukraine | Azota |
+| 7 | India vs West Indies | Mega Millions | Lịch thi đấu U23 Châu Á |
+| 8 | iPhone 14 | Powerball numbers | Ngoại hạng Anh |
+| 9 | Jeffrey Dahmer | Anne Heche | VTV6 |
+| 10 | Indian Premier League | Jeffrey Dahmer | VTV2 |
+
+Nguồn: 9to5google.com/2022/12/07/google-2022-year-in-search ; npr.org/2022/12/08/1141485540 ; kevesko.vn/20221207/… và hoanghamobile.com (bản Google VN là ảnh, em lấy theo các báo trích lại). Theo blog Google VN, chủ đề **Thời sự** đứng đầu là "Giá xăng hôm nay"; chủ đề **"Tại sao"** đứng đầu là xung đột Ukraine.
+
+**2021**
+
+| # | Toàn cầu | Mỹ | Việt Nam |
+|---|---|---|---|
+| 1 | Australia vs India | NBA | Lịch thi đấu Euro |
+| 2 | India vs England | DMX | OLM |
+| 3 | IPL | Gabby Petito | VTV6 |
+| 4 | NBA | Kyle Rittenhouse | Azota |
+| 5 | Euro 2021 | Brian Laundrie | K12online |
+| 6 | Copa América | Mega Millions | Vioedu |
+| 7 | India vs New Zealand | AMC Stock | Phòng chống COVID |
+| 8 | T20 World Cup | Stimulus Check | Khai báo y tế |
+| 9 | Squid Game | Georgia Senate Race | COVID hôm nay |
+| 10 | DMX | Squid Game | Chỉ thị 16 |
+
+Nguồn: makeuseof.com/google-year-in-search-2021 ; usatoday.com/story/tech/2021/12/08/… ; vietnamese.googleblog.com/2021/12/Google-Year-In-Search-2021.html. Thứ tự 1–4 của Việt Nam có trong bài Google; thứ tự 5–10 lấy từ bản tóm tắt kết quả tìm kiếm. Năm này Google VN có thêm 2 chủ đề mới là "Giải trí trực tuyến" và "Mẹo công nghệ".
+
+**2020**
+
+| # | Toàn cầu | Mỹ | Việt Nam |
+|---|---|---|---|
+| 1 | Coronavirus | Election results | — (bản gốc là ảnh) |
+| 2 | Election results | Coronavirus | |
+| 3 | Kobe Bryant | Kobe Bryant | |
+| 4 | Zoom | Coronavirus update | |
+| 5 | IPL | Coronavirus symptoms | |
+| 6 | India vs New Zealand | Zoom | |
+| 7 | Coronavirus update | Who is winning the election | |
+| 8 | Coronavirus symptoms | Naya Rivera | |
+| 9 | Joe Biden | Chadwick Boseman | |
+| 10 | Google Classroom | PlayStation 5 | |
+
+Nguồn: makeuseof.com/google-year-in-search-2020 ; finance.yahoo.com/news/google-top-trending-searches-2020-120048103.html. **Việt Nam 2020** (vietnamplus.vn/…post681319.vnp): có 4/10 từ khóa về học trực tuyến, 3/10 về giải trí (Hạ cánh nơi anh, Itaewon Class), và Bầu cử Tổng thống Mỹ, nhưng thứ tự đủ 10 chưa lấy được. Chủ đề **"Cách làm" 2020 toàn là món ăn**.
+
+**2019**
+
+| # | Toàn cầu | Mỹ | Việt Nam |
+|---|---|---|---|
+| 1 | India vs South Africa | Disney Plus | Thời tiết |
+| 2 | Cameron Boyce | Cameron Boyce | ASEAN Cup 2019 |
+| 3 | Copa America | Nipsey Hussle | Hoàng hậu Ki |
+| 4 | Bangladesh vs India | Hurricane Dorian | Do ta không đo nàng |
+| 5 | iPhone 11 | Antonio Brown | Nguyễn Phú Trọng |
+| 6 | Game of Thrones | Luke Perry | Chiếc lá cuốn bay |
+| 7 | Avengers: Endgame | Avengers: Endgame | iPhone 11 |
+| 8 | Joker | Game of Thrones | Cá mực hầm mật |
+| 9 | Notre Dame | iPhone 11 | Hãy trao cho anh |
+| 10 | ICC Cricket World Cup | Jussie Smollett | Thanos |
+
+Nguồn: diversetechgeek.com/google-2019-year-in-search ; techcrunch.com/2019/12/11/… ; trends.withgoogle.com/year-in-search/2019/vn ; news.tuoitre.vn (Weather dominates Vietnam's 2019…)
+
+**2018**
+
+| # | Toàn cầu | Mỹ | Việt Nam |
+|---|---|---|---|
+| 1 | World Cup | World Cup | World Cup |
+| 2 | Avicii | Hurricane Florence | VTV6 |
+| 3 | Mac Miller | Mac Miller | AFF Cup |
+| 4 | Stan Lee | Kate Spade | U23 Việt Nam |
+| 5 | Black Panther | Anthony Bourdain | VTC3 |
+| 6 | Meghan Markle | Black Panther | Diên Hi Công Lược |
+| 7 | Anthony Bourdain | Mega Millions Results | ASIAD Games |
+| 8 | XXXTentacion | Stan Lee | Thư ký Kim sao thế |
+| 9 | Stephen Hawking | Demi Lovato | Hoa Du Ký |
+| 10 | Kate Spade | Election Results | Xoilac TV |
+
+Nguồn: diversetechgeek.com/google-2018-year-search ; vtv.vn/cong-nghe/nguoi-viet-tim-kiem-gi-trong-nam-2018-20181213101434795.htm. Theo TechCrunch, câu hỏi "What is" của Mỹ năm 2018 đứng đầu là Bitcoin, racketeering, DACA.
+
+**2017**
+
+| # | Toàn cầu | Mỹ | Việt Nam |
+|---|---|---|---|
+| 1 | Hurricane Irma | Hurricane Irma | BOT Cai Lậy |
+| 2 | iPhone 8 | Matt Lauer | Điểm chuẩn đại học |
+| 3 | iPhone X | Tom Petty | Lạc trôi |
+| 4 | Matt Lauer | Super Bowl | Người phán xử |
+| 5 | Meghan Markle | Las Vegas Shooting | Sống chung với mẹ chồng |
+| 6 | 13 Reasons Why | Mayweather vs. McGregor Fight | Lịch thi đấu bóng đá SEA Games 29 |
+| 7 | Tom Petty | Solar Eclipse | Vietlott |
+| 8 | Fidget Spinner | Hurricane Harvey | Điểm thi trung học |
+| 9 | Chester Bennington | Aaron Hernandez | Google Dịch |
+| 10 | India National Cricket Team | Fidget Spinner | Đáp án đề thi THPT |
+
+Nguồn: searchengineland.com/hurricane-irma-no-1-top-trending-google-search-u-s-globally-2017-288256 ; doanhnghiepvn.vn/10-tu-khoa-duoc-tim-kiem-nhieu-nhat-viet-nam-nam-2017-d113914.html. **"How to" của Mỹ 2017:** How to make slime, make solar eclipse glasses, watch the solar eclipse, watch Mayweather vs McGregor, buy Bitcoin, freeze your credit, solve a Rubik's Cube, make a fidget spinner, cook a turkey in the oven, screen record.
+
+**Chưa lấy được:** danh sách "Searches" tổng 2023 cho toàn cầu và Mỹ; thứ tự đủ 10 mục Việt Nam 2020; "Cách làm"/"Là gì" của Việt Nam các năm 2017–2022 (bản gốc là ảnh hoặc trang chạy JS).
+
+## 10. Phân tích 2017–2025: chủ đề nào lặp lại mỗi năm (gợi ý ngách bền)
+
+1. **Sự kiện thể thao, chính trị, người mất, thiên tai** chiếm khoảng 60–70% các bảng tổng. Nhu cầu rất lớn nhưng **chỉ nóng vài tuần**, dính bản quyền (clip trận đấu, phim) và nhạy cảm. **Không nên chọn làm ngách chính.**
+2. **Công nghệ mới mỗi năm** xuất hiện liên tục: iPhone 8/X (2017), iPhone 11 (2019), Zoom và Google Classroom (2020), iPhone 14 (2022), AI (VN 2023, 2024, 2025), Gemini và DeepSeek (2025). Đây là **ngách bền nhất và có RPM cao**: hướng dẫn, so sánh, mẹo dùng công cụ mới.
+3. **Học tập và thủ tục ở Việt Nam:** điểm chuẩn, đáp án THPT (2017), OLM, Azota, Vioedu (2020–2022), định danh mức 2, VNeID (2023), căn cước cho trẻ (2024). Năm nào cũng có một **thủ tục hay công cụ mới** mà người dân cần hướng dẫn, nên video "cách làm X trong 60 giây" luôn có nhu cầu.
+4. **Cách làm món ăn, đồ handmade theo mùa:** slime, fidget spinner (Mỹ 2017), "Cách làm" VN 2020 toàn món ăn, bánh chưng, bò kho (2023), kẹo chip chip, hoa kẽm nhung (2024), trà vải, đèn trung thu (2025). Chủ đề **lặp lại hằng năm theo lịch** (Tết, Trung thu, 20/11), làm faceless được (quay tay hoặc dựng AI), dễ gắn affiliate dụng cụ và nguyên liệu.
+5. **"Là gì" và từ lóng mạng:** Bitcoin, DACA (2018), WAP, pandemic (2020), flex, à lôi (2023), lowkey, 8386, manifest (2025), "67", skibidi (Mỹ 2025). Năm nào cũng có từ mới, nên dạng video **"giải thích từ hot trong 30 giây"** là định dạng bền, chỉ có nội dung thay đổi.
+6. **Phim, show Hàn và Hoa ở Việt Nam** năm nào cũng có (Diên Hi Công Lược, Hạ cánh nơi anh, Big Mouth, Squid Game, Khi cuộc đời cho bạn quả quýt). Nhu cầu cao nhưng **rủi ro bản quyền rất lớn**, chỉ nên làm dạng bình luận hoặc tóm tắt có giá trị riêng, không dùng clip phim.
+7. **Du lịch trong nước** có mặt các năm 2020, 2022, 2023, 2024, 2025 (Đà Lạt, Hà Giang, Phú Quốc…), hợp affiliate khách sạn và tour, nhưng cần quay thật.
+
+**Kết luận:** 3 nhóm vừa có nhu cầu lặp lại hằng năm vừa hợp với đội AI faceless là:
+- **(a) Mẹo và so sánh công nghệ, AI mới**
+- **(b) "Cách làm" theo mùa và thủ tục**
+- **(c) "Là gì": giải thích từ hot**
+
+Cả 3 khớp với shortlist ở mục 6. Nên đặt **lịch nội dung theo mùa**: Tết (bánh chưng, giao thừa), mùa thi (điểm chuẩn), Trung thu (đèn), 20/11 (thiệp), ra mắt iPhone tháng 9, và các AI mới ra.
