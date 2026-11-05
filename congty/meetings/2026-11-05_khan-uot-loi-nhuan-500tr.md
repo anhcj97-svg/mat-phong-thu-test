@@ -90,3 +90,39 @@ MAT: ## Nguồn chính
 - Shopee: banhang.shopee.vn/edu/article/27540 ; TikTok Shop: seller-vn.tiktok.com, onflow.vn, laodong.vn
 - Nghị định 293/2025/NĐ-CP (lương tối thiểu vùng) ; giá điện: xaydungchinhsach.chinhphu.vn (áp dụng từ 01/11/2026)
 - maythucphamhoanglong.vn (máy 95 triệu) ; dichvucong.gov.vn (phí 6 triệu)
+
+MAT: ## 6. Bổ sung: thị trường khăn giấy (giấy hộp, giấy rút) có bão hòa không?
+
+**Số liệu có nguồn:**
+
+| Chỉ số | Số liệu | Nguồn |
+|---|---|---|
+| Thị trường giấy sinh hoạt bán lẻ (gồm khăn giấy mặt, giấy ăn, khăn bếp, giấy vệ sinh), năm 2025 | **255.000 tấn, tăng 5%**; giá trị **21.145,9 tỷ đồng, tăng 7%** | Tóm tắt báo cáo Euromonitor *Retail Tissue in Vietnam*, đăng lại trên marketresearch.com |
+| Thị phần năm 2025, tính theo giá trị | **Giấy Sài Gòn 22%**, New Toyo Pulppy 10%, Vina Paper (E'mos) 9%. Cả ba đều tăng dần | Trang báo cáo trên euromonitor.com |
+| Tiêu dùng giấy tissue năm 2024 (toàn ngành, kể cả hàng cho khách sạn, nhà hàng) | 308.075 tấn, **giảm 4,7%** so với 2023. Nhập khẩu 73.333 tấn, **tăng 29,5%** | Hiệp hội Giấy và Bột giấy Việt Nam (VPPA), ấn phẩm số 1/2025 |
+| Bình quân tiêu dùng mỗi người | **4,2 kg/người/năm** (VPPA ước tính cho 2025). Năm 2010 chỉ khoảng 0,8 kg | Tissue World Magazine; Perini Journal |
+| So với khu vực | Thái Lan 4,8–5,2 kg, Indonesia khoảng 4,0 kg (năm 2010: Trung Quốc 3 kg, Mỹ 24 kg) | misaeshop.vn (nguồn hạng C, CHƯA XÁC MINH); Perini Journal |
+| Sản xuất | Sản lượng 2024 là 395.183 tấn, giảm 1,3%. Công suất dự kiến năm 2026 trên 850.000 tấn/năm, nhiều hơn hẳn nhu cầu nội địa | VPPA; Tissue World Magazine |
+| Thị trường khăn ướt | Diana (Unicharm) dẫn đầu. Tăng trưởng nhờ **nhiều nhãn mới giảm giá mạnh trên TikTok Shop**. Tạp hóa nhỏ vẫn là kênh lớn nhất | Tóm tắt báo cáo Euromonitor *Wipes in Vietnam* (Research and Markets) |
+| Giá bán lẻ | Pulppy 180 tờ từ 17.000đ; Bless You 250 tờ từ 18.000đ; Tempo hương táo 90 tờ từ 37.500đ | vn.my-best.com |
+
+**Lưu ý:**
+- Statista đưa ra 3,72 tỷ USD cho năm 2025, tăng 5,5%/năm, nhưng con số này **gộp cả tã, băng vệ sinh, khẩu trang**, không phải riêng khăn giấy.
+- Em **không tìm được số liệu miễn phí** cho riêng phân khúc khăn giấy hộp, số nhà sản xuất, và tỷ lệ dùng ở nông thôn so với thành thị. Số liệu nông thôn mới nhất em có là Kantar năm 2013: giấy Sài Gòn là nhãn mua nhiều nhất ở nông thôn. Số liệu này đã cũ.
+
+**Đánh giá:**
+- **Khăn giấy hộp đại trà thì đã "bão hòa về cạnh tranh", nhưng nhu cầu chưa bão hòa.**
+- Thị trường vẫn tăng 5–7%/năm, và mỗi người mới dùng 4,2 kg/năm, thấp hơn Thái Lan.
+- Nhưng có các dấu hiệu dư cung:
+  - Ba hãng lớn đã nắm khoảng 41% giá trị.
+  - Công suất các nhà máy vượt xa nhu cầu.
+  - Hàng nhập khẩu từ Indonesia và Trung Quốc tăng gần 30%.
+  - Năm 2024 lượng tiêu dùng còn giảm.
+  - Giá một hộp chỉ 17.000–18.000đ.
+- **Một nhãn mới nhỏ đánh vào khăn giấy hộp phổ thông thì gần như chắc chắn thua về giá.** Đây là đánh giá của em.
+- **Chỗ còn trống:**
+  - (1) Khăn có **mùi hương hoặc chức năng riêng**. Tempo hương táo bán được 37.500đ/90 tờ, tức gấp khoảng 4 lần giá mỗi tờ của Pulppy. Đây là bằng chứng có thật rằng người mua chịu trả thêm cho mùi hương.
+  - (2) **Spa, khách sạn, quà tặng** (B2B, không phải lên kệ đấu giá).
+  - (3) **Khăn ướt oải hương**, đúng hướng C đã chọn.
+  - Nông thôn rộng nhưng cần kênh phân phối mạnh và giá rẻ, không hợp với mình.
+- **Kết luận:** giữ nguyên quyết định ở mục 4. **Không làm khăn giấy hộp đại trà.** Nếu làm khăn giấy thì chỉ làm dòng có hương, bán kèm trong bộ sản phẩm oải hương cho spa.
