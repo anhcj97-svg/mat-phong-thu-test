@@ -1,280 +1,320 @@
 [
- {
-  "file": "2026-11-01_thao-luan-1.md",
-  "title": "Thảo luận 1 – Rủi ro, thị trường ngách, gói VFX",
-  "date": "2026-11-01",
-  "people": "MAT ↔ GPT",
-  "summary": [
-   {
-    "h": "3 rủi ro lớn",
-    "items": [
-     "Tài khoản Fiverr sai quốc gia (Hoa Kỳ) – chưa có kênh bán ổn định, không được lách xác minh.",
-     "Dàn trải quá nhiều sản phẩm/kênh cùng lúc trước khi có 1 kênh bán chạy.",
-     "Chưa có đánh giá + vài mẫu còn yếu (nến, lửa, vệt chém) → khó ra đơn đầu."
+  {
+    "file": "2026-11-01_thao-luan-1.md",
+    "title": "Thảo luận 1 – Rủi ro, thị trường ngách, gói VFX",
+    "date": "2026-11-01",
+    "people": "MAT ↔ GPT",
+    "summary": [
+      {
+        "h": "3 rủi ro lớn",
+        "items": [
+          "Tài khoản Fiverr sai quốc gia (Hoa Kỳ) – chưa có kênh bán ổn định, không được lách xác minh.",
+          "Dàn trải quá nhiều sản phẩm/kênh cùng lúc trước khi có 1 kênh bán chạy.",
+          "Chưa có đánh giá + vài mẫu còn yếu (nến, lửa, vệt chém) → khó ra đơn đầu."
+        ]
+      },
+      {
+        "h": "Thị trường ngách đã chọn",
+        "items": [
+          "Ưu tiên 1: ảnh sản phẩm cà phê (túi cà phê là mẫu mạnh, dễ kể chuyện, khách có nhu cầu đều đặn).",
+          "Ưu tiên 2: mỹ phẩm/skincare (thị trường lớn nhưng cạnh tranh cao).",
+          "Tiêu đề gig: “I will create premium AI product photography for your coffee brand” – giá $15/$35/$60.",
+          "Ý tưởng: 3 thương hiệu cà phê giả lập từ 1 ảnh gốc để làm portfolio miễn phí; giữ nguyên nhãn/logo thật."
+        ]
+      },
+      {
+        "h": "Bổ sung gói VFX ($4.99)",
+        "items": [
+          "Soft Impact Burst – 8 khung, 3 màu (trắng, vàng, xanh).",
+          "Healing Aura – 12 khung lặp liền, 3 màu (xanh lá, vàng, xanh dương).",
+          "Magical Dash – 8 khung, vệt cong + 2 bóng mờ, 3 hướng.",
+          "Phát hành v1 ngay, cập nhật dần theo phản hồi."
+        ]
+      },
+      {
+        "ol": true,
+        "h": "Kế hoạch 7 bước",
+        "items": [
+          "Xử lý ticket đổi quốc gia Fiverr – Anh Nhật.",
+          "Tập trung gig đầu tiên vào ảnh cà phê, skincare là ngách 2 – MAT.",
+          "Xem 6 mẫu cạnh nhau để đánh giá – MAT + GPT.",
+          "Sửa mẫu nến, hoàn thiện portfolio cà phê – GPT (chỉ đạo nghệ thuật) + MAT (sản xuất).",
+          "Đăng gig cà phê $15/$35/$60 – MAT (GPT duyệt trình bày).",
+          "Phát hành Soft Glow VFX v1 $4.99, thêm 3 hiệu ứng mới – MAT + GPT.",
+          "Đạt 20$/ngày trong 30 ngày bằng kênh miễn phí (Fiverr, itch.io, Instagram, Pinterest, cộng đồng) – Anh Nhật + MAT + GPT."
+        ]
+      }
     ]
-   },
-   {
-    "h": "Thị trường ngách đã chọn",
-    "items": [
-     "Ưu tiên 1: ảnh sản phẩm cà phê (túi cà phê là mẫu mạnh, dễ kể chuyện, khách có nhu cầu đều đặn).",
-     "Ưu tiên 2: mỹ phẩm/skincare (thị trường lớn nhưng cạnh tranh cao).",
-     "Tiêu đề gig: “I will create premium AI product photography for your coffee brand” – giá $15/$35/$60.",
-     "Ý tưởng: 3 thương hiệu cà phê giả lập từ 1 ảnh gốc để làm portfolio miễn phí; giữ nguyên nhãn/logo thật."
+  },
+  {
+    "file": "2026-11-01_thao-luan-2.md",
+    "title": "Thảo luận 2 – Định vị Fiverr, tiếp cận khách quốc tế, học & vận hành",
+    "date": "2026-11-01",
+    "people": "MAT ↔ GPT",
+    "summary": [
+      {
+        "h": "Định vị gig Fiverr",
+        "items": [
+          "Bán theo 'chiến dịch' thay vì từng ảnh: $15 = 1 ảnh, $35 = 3 ảnh, $60 = 5 ảnh + video 10s.",
+          "Portfolio dùng thương hiệu hư cấu (không logo thật), làm cà phê trước."
+        ]
+      },
+      {
+        "h": "Tiếp cận US/UK/AU hợp lệ từ Việt Nam",
+        "items": [
+          "Nội dung tiếng Anh; KHÔNG VPN, không địa chỉ giả, không mua follower.",
+          "TikTok để được khám phá, Instagram Reels tạo uy tín, YouTube Shorts nhờ tìm kiếm, Pinterest cho lâu dài.",
+          "Mọi kênh dẫn khách về gig Fiverr."
+        ]
+      },
+      {
+        "h": "Học tập",
+        "items": [
+          "Giáo trình 8 tuần.",
+          "Nguồn chia 4 bậc A–D; lời của AI không được coi là bằng chứng."
+        ]
+      },
+      {
+        "ol": true,
+        "h": "Vận hành",
+        "items": [
+          "Quy trình 7 bước, giám đốc (Anh Nhật) duyệt trước khi giao/đăng.",
+          "Báo cáo hằng ngày + tổng kết hằng tuần."
+        ]
+      },
+      {
+        "h": "Lưu ý",
+        "items": [
+          "Các số liệu thị trường GPT đưa ra CHƯA được kiểm chứng."
+        ]
+      }
     ]
-   },
-   {
-    "h": "Bổ sung gói VFX ($4.99)",
-    "items": [
-     "Soft Impact Burst – 8 khung, 3 màu (trắng, vàng, xanh).",
-     "Healing Aura – 12 khung lặp liền, 3 màu (xanh lá, vàng, xanh dương).",
-     "Magical Dash – 8 khung, vệt cong + 2 bóng mờ, 3 hướng.",
-     "Phát hành v1 ngay, cập nhật dần theo phản hồi."
+  },
+  {
+    "file": "2026-11-01_thao-luan-3.md",
+    "title": "Thảo luận 3 – Quy trình 24h",
+    "date": "2026-11-01",
+    "people": "MAT ↔ GPT",
+    "summary": [
+      {
+        "h": "Nguyên tắc",
+        "items": [
+          "24h là mục tiêu nội bộ, tính từ lúc anh Nhật duyệt đủ yêu cầu và ảnh gốc; hạn giao trên Fiverr vẫn là hạn bắt buộc.",
+          "Chưa quảng cáo giao 24h cho tới khi chạy thử 3 đơn giả lập (1 đơn Premium)."
+        ]
+      },
+      {
+        "h": "Phân vai",
+        "items": [
+          "Anh Nhật: nhắn khách, duyệt brief, duyệt bản cuối, bấm giao.",
+          "GPT: định hướng nghệ thuật, vẽ ảnh tĩnh, QC hình.",
+          "MAT: điều phối, dựng video 10s, QC kỹ thuật, đóng gói file."
+        ]
+      },
+      {
+        "ol": true,
+        "h": "Mốc thời gian 24h",
+        "items": [
+          "0–1h: nhận đơn, kiểm ảnh gốc, chốt brief.",
+          "1–3h: GPT lên phương án cảnh.",
+          "3–9h: vẽ ảnh tĩnh, giữ nguyên nhãn/logo/màu thật.",
+          "9–13h: MAT dựng video (gói Premium).",
+          "13–17h: QC hình + kỹ thuật.",
+          "17–20h: anh Nhật duyệt.",
+          "20–24h: đóng gói ORDER_XXXX và giao qua Fiverr."
+        ]
+      },
+      {
+        "h": "Sửa bài & rủi ro",
+        "items": [
+          "Basic 1 lần sửa, Standard/Premium 2 lần; đổi hẳn concept = phát sinh thêm.",
+          "Lỗi do mình thì sửa miễn phí.",
+          "Gia hạn phải gửi qua trang đơn, khách có 48h trả lời (Fiverr chính thức).",
+          "Đề xuất: giữ thời gian giao 3/4/5 ngày trong giai đoạn thử; đầu tiên ưu tiên Basic/Standard."
+        ]
+      }
     ]
-   },
-   {
-    "ol": true,
-    "h": "Kế hoạch 7 bước",
-    "items": [
-     "Xử lý ticket đổi quốc gia Fiverr – Anh Nhật.",
-     "Tập trung gig đầu tiên vào ảnh cà phê, skincare là ngách 2 – MAT.",
-     "Xem 6 mẫu cạnh nhau để đánh giá – MAT + GPT.",
-     "Sửa mẫu nến, hoàn thiện portfolio cà phê – GPT (chỉ đạo nghệ thuật) + MAT (sản xuất).",
-     "Đăng gig cà phê $15/$35/$60 – MAT (GPT duyệt trình bày).",
-     "Phát hành Soft Glow VFX v1 $4.99, thêm 3 hiệu ứng mới – MAT + GPT.",
-     "Đạt 20$/ngày trong 30 ngày bằng kênh miễn phí (Fiverr, itch.io, Instagram, Pinterest, cộng đồng) – Anh Nhật + MAT + GPT."
+  },
+  {
+    "file": "2026-11-01_bao-cao-hoc-tap-1.md",
+    "title": "Báo cáo học tập 1",
+    "date": "2026-11-01",
+    "people": "MAT + GPT",
+    "summary": [
+      {
+        "h": "GPT",
+        "items": [
+          "Đã nhận Quy tắc nguồn (xác nhận trong 'Ban bac - Thao luan').",
+          "Đã học xong tuần 1: hướng dẫn chính thức Fiverr, trích help.fiverr.com (tạo gig, gói giá, quy trình đơn, 80% thu nhập)."
+        ]
+      },
+      {
+        "h": "MAT",
+        "items": [
+          "Đã có giáo trình 11 module, quy tắc nguồn, quy trình vận hành, bảng giá đối thủ.",
+          "Còn 6 mục CHƯA XÁC MINH; trang Fiverr chặn tải trực tiếp (403); giáo trình chưa chia lịch theo tuần."
+        ]
+      },
+      {
+        "h": "Tiếp theo",
+        "items": [
+          "Chạy thử 3 đơn giả lập theo quy trình 24h.",
+          "Kiểm tra danh mục + giá tối thiểu trước khi đăng gig."
+        ]
+      }
     ]
-   }
-  ]
- },
- {
-  "file": "2026-11-01_thao-luan-2.md",
-  "title": "Thảo luận 2 – Định vị Fiverr, tiếp cận khách quốc tế, học & vận hành",
-  "date": "2026-11-01",
-  "people": "MAT ↔ GPT",
-  "summary": [
-   {
-    "h": "Định vị gig Fiverr",
-    "items": [
-     "Bán theo 'chiến dịch' thay vì từng ảnh: $15 = 1 ảnh, $35 = 3 ảnh, $60 = 5 ảnh + video 10s.",
-     "Portfolio dùng thương hiệu hư cấu (không logo thật), làm cà phê trước."
+  },
+  {
+    "file": "2026-11-05_bang-gac-quy-trinh.md",
+    "title": "Quy trình băng gạc y tế – từ bông đến miếng gạc (có ảnh + video)",
+    "date": "2026-11-05",
+    "people": "MAT",
+    "summary": [
+      {
+        "h": "Chuỗi sản xuất",
+        "items": [
+          "Bông xơ → kéo sợi → dệt vải gạc mộc → nấu, tẩy H2O2, giặt, sấy → cuộn vải gạc → cắt, gấp → đóng gói → tiệt trùng.",
+          "Việt Nam nhập gần như toàn bộ bông (2025: 1,71 triệu tấn)."
+        ]
+      },
+      {
+        "h": "Thông số gạc Việt Nam (nhà sản xuất công bố)",
+        "items": [
+          "Sợi 32s/1; dọc 7, ngang 6 sợi/cm; 22 ± 2 g/m²; khổ 0,8 m.",
+          "Dược điển Việt Nam V: chìm ≤ 8 giây, 1 g gạc giữ ≥ 5 g nước."
+        ]
+      },
+      {
+        "h": "Kết luận",
+        "items": [
+          "Kéo sợi, dệt, tẩy là việc của nhà máy; mình chỉ nên mua vải gạc đã tẩy rồi cắt, gấp, đóng gói.",
+          "Giá vải gạc sỉ và giá máy gấp: CHƯA XÁC MINH, cần xin báo giá."
+        ]
+      }
     ]
-   },
-   {
-    "h": "Tiếp cận US/UK/AU hợp lệ từ Việt Nam",
-    "items": [
-     "Nội dung tiếng Anh; KHÔNG VPN, không địa chỉ giả, không mua follower.",
-     "TikTok để được khám phá, Instagram Reels tạo uy tín, YouTube Shorts nhờ tìm kiếm, Pinterest cho lâu dài.",
-     "Mọi kênh dẫn khách về gig Fiverr."
+  },
+  {
+    "file": "2026-11-05_khan-uot-quy-trinh.md",
+    "title": "Khăn khô đa năng & khăn ướt – nguyên liệu, quy trình, pháp lý, chi phí (có ảnh + video)",
+    "date": "2026-11-05",
+    "people": "MAT",
+    "summary": [
+      {
+        "h": "Nguyên liệu",
+        "items": [
+          "Vải không dệt spunlace (viscose/polyester, thường 30–85 g/m²); không cần kéo sợi, dệt.",
+          "Khăn ướt: nước RO + chất bảo quản (vd phenoxyethanol ≤1%) + hương; tinh dầu oải hương chứa linalool (chất gây dị ứng)."
+        ]
+      },
+      {
+        "h": "Pháp lý",
+        "items": [
+          "TCVN 11528:2016: pH 4,5–7,5; formaldehyde ≤30 ppm; vi sinh ≤500 CFU/g.",
+          "Khăn có hương/mỹ phẩm → công bố mỹ phẩm; tự sản xuất cần giấy đủ điều kiện SX mỹ phẩm (Sở Y tế, phí 6 triệu)."
+        ]
+      },
+      {
+        "h": "Máy & chi phí",
+        "items": [
+          "Máy cắt gấp phun hương đóng gói ~95 triệu; bán tự động 79–110 triệu; mini khăn lạnh 7–10 triệu.",
+          "Vải ~6.300–9.200đ/gói 100 tờ (ƯỚC TÍNH); Bobby 100 tờ bán 23–39,5 nghìn."
+        ]
+      },
+      {
+        "ol": true,
+        "h": "Đề xuất",
+        "items": [
+          "Bắt đầu bằng khăn khô không mùi, hoặc khăn ướt oải hương thuê gia công OEM.",
+          "Xin báo giá spunlace nội địa, OEM, bao bì; hỏi Sở Y tế về phân loại."
+        ]
+      }
     ]
-   },
-   {
-    "h": "Học tập",
-    "items": [
-     "Giáo trình 8 tuần.",
-     "Nguồn chia 4 bậc A–D; lời của AI không được coi là bằng chứng."
+  },
+  {
+    "file": "2026-11-05_khan-uot-loi-nhuan-500tr.md",
+    "title": "Khăn ướt – thị trường, tỷ suất lợi nhuận & quyết định với vốn 500 triệu",
+    "date": "2026-11-05",
+    "people": "MAT",
+    "summary": [
+      {
+        "h": "Kết luận",
+        "items": [
+          "NÊN LÀM CÓ ĐIỀU KIỆN – chọn C: OEM khăn ướt oải hương, bán spa/khách sạn là chính, chỉ dùng ~110tr, giữ ~390tr.",
+          "KHÔNG mở xưởng khăn lạnh ngay (B): lãi ~150đ/cái, giá -10% là lỗ."
+        ]
+      },
+      {
+        "h": "Số chính (ƯỚC TÍNH)",
+        "items": [
+          "A: lãi ~8,0tr/tháng, hoàn vốn ~18 tháng.",
+          "B: lãi ~8,1tr/tháng, hoàn vốn ~35 tháng, rất nhạy giá.",
+          "C: lãi ~12,7tr/tháng, hòa vốn ~660 gói/tháng, hoàn vốn ~9 tháng."
+        ]
+      },
+      {
+        "h": "Phí đã xác minh",
+        "items": [
+          "Shopee khăn ướt 10–10,5% + 6% + 3.000đ/đơn; TikTok Shop 9,5–16% + 6% + 3.000đ/đơn.",
+          "Lương tối thiểu vùng I 5,31tr; điện SX 1.966đ/kWh; máy cắt gấp 95tr; khăn lạnh sỉ 350–650đ."
+        ]
+      },
+      {
+        "ol": true,
+        "h": "90 ngày",
+        "items": [
+          "Xin 3 báo giá OEM + hồ sơ công bố.",
+          "Lô thử 2–3 nghìn gói, mẫu 30 spa, mở shop.",
+          "≥660 gói/tháng thì mở rộng; <300 thì dừng."
+        ]
+      },
+      {
+        "h": "Bổ sung: khăn giấy hộp có bão hòa?",
+        "items": [
+          "Giấy sinh hoạt bán lẻ 2025: 255.000 tấn, 21.146 tỷ đồng, +5–7%/năm (Euromonitor); 4,2 kg/người/năm (VPPA).",
+          "Sài Gòn 22%, Pulppy 10%, Vina Paper 9%; công suất >850.000 t/năm, nhập khẩu +29,5% → dư cung, giá 17–18 nghìn/hộp.",
+          "Kết luận: không làm khăn giấy hộp đại trà; chỉ làm dòng có hương cho spa/quà tặng."
+        ]
+      }
     ]
-   },
-   {
-    "ol": true,
-    "h": "Vận hành",
-    "items": [
-     "Quy trình 7 bước, giám đốc (Anh Nhật) duyệt trước khi giao/đăng.",
-     "Báo cáo hằng ngày + tổng kết hằng tuần."
+  },
+  {
+    "file": "2026-11-05_video-ngan-nghien-cuu-tu-khoa.md",
+    "title": "Video ngắn: chọn ngách theo từ khóa – Toàn cầu, nước thu nhập cao, Việt Nam",
+    "date": "2026-11-05",
+    "people": "MAT",
+    "summary": [
+      {
+        "h": "Kiếm tiền nền tảng (VN)",
+        "items": [
+          "YouTube Shorts: CÓ – 1k sub + 10tr view/90 ngày, nhận 45%; kênh mới từ 1/2/2027 cần 20tr.",
+          "TikTok Creator Rewards: KHÔNG có VN (chỉ US, UK, DE, FR, JP, KR, BR, MX).",
+          "Facebook Content Monetization: chỉ theo lời mời, VN chưa có."
+        ]
+      },
+      {
+        "h": "RPM Shorts (ước tính)",
+        "items": [
+          "Mỹ ~0,30 USD/1.000 view; UK/CA/AU/DE ~0,16–0,27; nhóm thấp ~0,02–0,03.",
+          "Ngách: tài chính 0,25–0,45; AI/công nghệ 0,20–0,35; giải trí 0,06–0,11."
+        ]
+      },
+      {
+        "ol": true,
+        "h": "Shortlist",
+        "items": [
+          "Mẹo công cụ AI tiếng Việt (5/10 top Google VN 2025 là AI).",
+          "Gamedev/pixel/VFX tiếng Anh cho nước thu nhập cao.",
+          "Hoạt hình ngắn không lời nhân vật gốc (toàn cầu).",
+          "Giải thích kiến thức tiếng Anh."
+        ]
+      },
+      {
+        "h": "Luật",
+        "items": [
+          "YouTube 'inauthentic content' (15/7/2025): cấm sản xuất hàng loạt/template; AI được nếu có giá trị riêng + gắn nhãn.",
+          "TikTok: bắt buộc nhãn AIGC cho nội dung trông như thật."
+        ]
+      }
     ]
-   },
-   {
-    "h": "Lưu ý",
-    "items": [
-     "Các số liệu thị trường GPT đưa ra CHƯA được kiểm chứng."
-    ]
-   }
-  ]
- },
- {
-  "file": "2026-11-01_thao-luan-3.md",
-  "title": "Thảo luận 3 – Quy trình 24h",
-  "date": "2026-11-01",
-  "people": "MAT ↔ GPT",
-  "summary": [
-   {
-    "h": "Nguyên tắc",
-    "items": [
-     "24h là mục tiêu nội bộ, tính từ lúc anh Nhật duyệt đủ yêu cầu và ảnh gốc; hạn giao trên Fiverr vẫn là hạn bắt buộc.",
-     "Chưa quảng cáo giao 24h cho tới khi chạy thử 3 đơn giả lập (1 đơn Premium)."
-    ]
-   },
-   {
-    "h": "Phân vai",
-    "items": [
-     "Anh Nhật: nhắn khách, duyệt brief, duyệt bản cuối, bấm giao.",
-     "GPT: định hướng nghệ thuật, vẽ ảnh tĩnh, QC hình.",
-     "MAT: điều phối, dựng video 10s, QC kỹ thuật, đóng gói file."
-    ]
-   },
-   {
-    "ol": true,
-    "h": "Mốc thời gian 24h",
-    "items": [
-     "0–1h: nhận đơn, kiểm ảnh gốc, chốt brief.",
-     "1–3h: GPT lên phương án cảnh.",
-     "3–9h: vẽ ảnh tĩnh, giữ nguyên nhãn/logo/màu thật.",
-     "9–13h: MAT dựng video (gói Premium).",
-     "13–17h: QC hình + kỹ thuật.",
-     "17–20h: anh Nhật duyệt.",
-     "20–24h: đóng gói ORDER_XXXX và giao qua Fiverr."
-    ]
-   },
-   {
-    "h": "Sửa bài & rủi ro",
-    "items": [
-     "Basic 1 lần sửa, Standard/Premium 2 lần; đổi hẳn concept = phát sinh thêm.",
-     "Lỗi do mình thì sửa miễn phí.",
-     "Gia hạn phải gửi qua trang đơn, khách có 48h trả lời (Fiverr chính thức).",
-     "Đề xuất: giữ thời gian giao 3/4/5 ngày trong giai đoạn thử; đầu tiên ưu tiên Basic/Standard."
-    ]
-   }
-  ]
- },
- {
-  "file": "2026-11-01_bao-cao-hoc-tap-1.md",
-  "title": "Báo cáo học tập 1",
-  "date": "2026-11-01",
-  "people": "MAT + GPT",
-  "summary": [
-   {
-    "h": "GPT",
-    "items": [
-     "Đã nhận Quy tắc nguồn (xác nhận trong 'Ban bac - Thao luan').",
-     "Đã học xong tuần 1: hướng dẫn chính thức Fiverr, trích help.fiverr.com (tạo gig, gói giá, quy trình đơn, 80% thu nhập)."
-    ]
-   },
-   {
-    "h": "MAT",
-    "items": [
-     "Đã có giáo trình 11 module, quy tắc nguồn, quy trình vận hành, bảng giá đối thủ.",
-     "Còn 6 mục CHƯA XÁC MINH; trang Fiverr chặn tải trực tiếp (403); giáo trình chưa chia lịch theo tuần."
-    ]
-   },
-   {
-    "h": "Tiếp theo",
-    "items": [
-     "Chạy thử 3 đơn giả lập theo quy trình 24h.",
-     "Kiểm tra danh mục + giá tối thiểu trước khi đăng gig."
-    ]
-   }
-  ]
- },
- {
-  "file": "2026-11-05_bang-gac-quy-trinh.md",
-  "title": "Quy trình băng gạc y tế – từ bông đến miếng gạc (có ảnh + video)",
-  "date": "2026-11-05",
-  "people": "MAT",
-  "summary": [
-   {
-    "h": "Chuỗi sản xuất",
-    "items": [
-     "Bông xơ → kéo sợi → dệt vải gạc mộc → nấu, tẩy H2O2, giặt, sấy → cuộn vải gạc → cắt, gấp → đóng gói → tiệt trùng.",
-     "Việt Nam nhập gần như toàn bộ bông (2025: 1,71 triệu tấn)."
-    ]
-   },
-   {
-    "h": "Thông số gạc Việt Nam (nhà sản xuất công bố)",
-    "items": [
-     "Sợi 32s/1; dọc 7, ngang 6 sợi/cm; 22 ± 2 g/m²; khổ 0,8 m.",
-     "Dược điển Việt Nam V: chìm ≤ 8 giây, 1 g gạc giữ ≥ 5 g nước."
-    ]
-   },
-   {
-    "h": "Kết luận",
-    "items": [
-     "Kéo sợi, dệt, tẩy là việc của nhà máy; mình chỉ nên mua vải gạc đã tẩy rồi cắt, gấp, đóng gói.",
-     "Giá vải gạc sỉ và giá máy gấp: CHƯA XÁC MINH, cần xin báo giá."
-    ]
-   }
-  ]
- },
- {
-  "file": "2026-11-05_khan-uot-quy-trinh.md",
-  "title": "Khăn khô đa năng & khăn ướt – nguyên liệu, quy trình, pháp lý, chi phí (có ảnh + video)",
-  "date": "2026-11-05",
-  "people": "MAT",
-  "summary": [
-   {
-    "h": "Nguyên liệu",
-    "items": [
-     "Vải không dệt spunlace (viscose/polyester, thường 30–85 g/m²); không cần kéo sợi, dệt.",
-     "Khăn ướt: nước RO + chất bảo quản (vd phenoxyethanol ≤1%) + hương; tinh dầu oải hương chứa linalool (chất gây dị ứng)."
-    ]
-   },
-   {
-    "h": "Pháp lý",
-    "items": [
-     "TCVN 11528:2016: pH 4,5–7,5; formaldehyde ≤30 ppm; vi sinh ≤500 CFU/g.",
-     "Khăn có hương/mỹ phẩm → công bố mỹ phẩm; tự sản xuất cần giấy đủ điều kiện SX mỹ phẩm (Sở Y tế, phí 6 triệu)."
-    ]
-   },
-   {
-    "h": "Máy & chi phí",
-    "items": [
-     "Máy cắt gấp phun hương đóng gói ~95 triệu; bán tự động 79–110 triệu; mini khăn lạnh 7–10 triệu.",
-     "Vải ~6.300–9.200đ/gói 100 tờ (ƯỚC TÍNH); Bobby 100 tờ bán 23–39,5 nghìn."
-    ]
-   },
-   {
-    "ol": true,
-    "h": "Đề xuất",
-    "items": [
-     "Bắt đầu bằng khăn khô không mùi, hoặc khăn ướt oải hương thuê gia công OEM.",
-     "Xin báo giá spunlace nội địa, OEM, bao bì; hỏi Sở Y tế về phân loại."
-    ]
-   }
-  ]
- },
- {
-  "file": "2026-11-05_khan-uot-loi-nhuan-500tr.md",
-  "title": "Khăn ướt – thị trường, tỷ suất lợi nhuận & quyết định với vốn 500 triệu",
-  "date": "2026-11-05",
-  "people": "MAT",
-  "summary": [
-   {
-    "h": "Kết luận",
-    "items": [
-     "NÊN LÀM CÓ ĐIỀU KIỆN – chọn C: OEM khăn ướt oải hương, bán spa/khách sạn là chính, chỉ dùng ~110tr, giữ ~390tr.",
-     "KHÔNG mở xưởng khăn lạnh ngay (B): lãi ~150đ/cái, giá -10% là lỗ."
-    ]
-   },
-   {
-    "h": "Số chính (ƯỚC TÍNH)",
-    "items": [
-     "A: lãi ~8,0tr/tháng, hoàn vốn ~18 tháng.",
-     "B: lãi ~8,1tr/tháng, hoàn vốn ~35 tháng, rất nhạy giá.",
-     "C: lãi ~12,7tr/tháng, hòa vốn ~660 gói/tháng, hoàn vốn ~9 tháng."
-    ]
-   },
-   {
-    "h": "Phí đã xác minh",
-    "items": [
-     "Shopee khăn ướt 10–10,5% + 6% + 3.000đ/đơn; TikTok Shop 9,5–16% + 6% + 3.000đ/đơn.",
-     "Lương tối thiểu vùng I 5,31tr; điện SX 1.966đ/kWh; máy cắt gấp 95tr; khăn lạnh sỉ 350–650đ."
-    ]
-   },
-   {
-    "ol": true,
-    "h": "90 ngày",
-    "items": [
-     "Xin 3 báo giá OEM + hồ sơ công bố.",
-     "Lô thử 2–3 nghìn gói, mẫu 30 spa, mở shop.",
-     "≥660 gói/tháng thì mở rộng; <300 thì dừng."
-    ]
-   },
-   {
-    "h": "Bổ sung: khăn giấy hộp có bão hòa?",
-    "items": [
-     "Giấy sinh hoạt bán lẻ 2025: 255.000 tấn, 21.146 tỷ đồng, +5–7%/năm (Euromonitor); 4,2 kg/người/năm (VPPA).",
-     "Sài Gòn 22%, Pulppy 10%, Vina Paper 9%; công suất >850.000 t/năm, nhập khẩu +29,5% → dư cung, giá 17–18 nghìn/hộp.",
-     "Kết luận: không làm khăn giấy hộp đại trà; chỉ làm dòng có hương cho spa/quà tặng."
-    ]
-   }
-  ]
- }
+  }
 ]
