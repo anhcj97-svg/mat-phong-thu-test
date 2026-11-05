@@ -83,3 +83,73 @@ MAT: ## 1. Kiếm tiền từ nền tảng: người ở Việt Nam được gì
 - **Đo hằng tuần:** tỉ lệ xem hết, lượt xem trung bình, người theo dõi tăng, tỉ lệ khán giả ở các nước thu nhập cao (kênh 2), số click affiliate.
 - **Ngày 30, tiêu chí đi tiếp (đánh giá của em):** lượt xem trung bình từ 1.000 video trở lên, hoặc có ít nhất 1 video vượt 50.000 lượt xem, hoặc có đơn affiliate đầu tiên. Không đạt thì đổi định dạng (giữ ngách); 60 ngày vẫn không đạt thì bỏ ngách.
 - **Chi phí:** gần như chỉ có công làm và công cụ AI đang có. Không mua view, không mua tài khoản.
+
+## 8. Phụ lục: danh sách top tìm kiếm Google 2024, 2025, 2026 (nguyên văn như Google công bố)
+
+*Lưu ý: Year in Search là danh sách **"tăng đột biến" (trending)** so với năm trước, **không phải** danh sách "tìm nhiều nhất". Google tự ghi chú như vậy. Chỉ tính tìm kiếm văn bản trên google.com, không tính YouTube.*
+
+### 2025
+
+| # | Toàn cầu (Trending) | Mỹ (Trending) | Việt Nam (Xu hướng chung) |
+|---|---|---|---|
+| 1 | Gemini | Charlie Kirk | DeepSeek |
+| 2 | India vs England | KPop Demon Hunters | ChatGPT |
+| 3 | Charlie Kirk | Labubu | Phụ nữ trong các ngành STEM |
+| 4 | Club World Cup | iPhone 17 | Gemini |
+| 5 | India vs Australia | One Big Beautiful Bill Act | Pixverse AI |
+| 6 | DeepSeek | Zohran Mamdani | Grok |
+| 7 | Asia Cup | DeepSeek | Mưa đỏ |
+| 8 | Iran | Government shutdown | Khi cuộc đời cho bạn quả quýt |
+| 9 | iPhone 17 | FIFA Club World Cup | Squid Game 2 |
+| 10 | Pakistan and India | Tariffs | Khom lưng |
+
+Nguồn: searchengineland.com/google-year-in-search-2025-trending-queries-465630 (4/12/2025); trends.withgoogle.com/vi/year-in-search/2025/vn. Thứ tự từ 4 đến 10 của danh sách Việt Nam lấy từ bản tóm tắt kết quả tìm kiếm, vì trang gốc chạy JS nên chưa đọc trực tiếp được.
+
+**Việt Nam 2025, các mục khác** (trends.withgoogle.com/year-in-search/2025/vn):
+- **Là gì:** A80, 8386, manifest, Sít rịt, Fomo, Đám giỗ bên cồn, Lowkey, Skip leg day, A50, Năm số 9
+- **Cách làm:** Trà vải, Siro mận, **Video AI**, Đèn trung thu, Cơm nắm, Khúc bạch vải, salad mayonnaise, Thiệp 20/11, Matcha latte, Dầu cà rốt
+- **Du lịch:** Đà Lạt, An Giang, Mũi Né, Đà Nẵng, Hạ Long, Quảng Ninh, Hải Phòng, Cà Mau, Phú Quốc, Vũng Tàu
+- **Tạo ảnh** (theo blog Google VN, chưa đủ 10 mục): Tạo ảnh Gemini, tuyết rơi, trung thu, Phục chế ảnh cũ, polaroid, hộp đồ chơi (vietnamese.googleblog.com/2025/12/year-in-search-2025-ai-ngay-cang-tro.html)
+
+**Mỹ 2025, các mục khác** (trends.withgoogle.com/year-in-search/2025/us):
+- **Trends:** AI action figure, AI Barbie, Holy airball, AI Ghostface, AI Polaroid, Chicken jockey, Bacon avocado, Anxiety dance, Unfortunately I do love, Ghibli
+- **Why do kids say:** 67, Sigma, 41, Skibidi, Ohio, Rizz, Good boy, Skibidi toilet, Aura, Chat
+- **Viral Dishes:** Hot honey cottage cheese sweet potato beef bowl, Dumpling bake, Cabbage boil, Iceberg lettuce salad, Carrot salad, Protein muffins, Turkish pasta, Onion ring chips, Crockpot turkey breast, Ditalini pasta
+- **Games:** Clair Obscur: Expedition 33, Battlefield 6, Hollow Knight: Silksong, ARC Raiders, Oblivion Remastered, Borderlands 4, Pokémon Legends: Z-A, Monster Hunter Wilds, Madden NFL 26, Clash Royale
+- Truy vấn "How do I…" tăng 25%, "tell me about…" tăng 70% (blog.google, Year in Search 2025)
+
+### 2024
+
+| # | Toàn cầu | Mỹ | Việt Nam (Tìm kiếm nổi bật) |
+|---|---|---|---|
+| 1 | Copa América | Election | Euro |
+| 2 | UEFA European Championship | Donald Trump | Asian Cup |
+| 3 | ICC Men's T20 World Cup | Connections | Olympics |
+| 4 | India vs England | New York Yankees | Tiến trình biến đổi khí hậu |
+| 5 | Liam Payne | Kamala Harris | Copa America |
+| 6 | Donald Trump | Copa América | Bão Yagi |
+| 7 | India vs Bangladesh | Hurricane Milton tracker | Trà sữa trân châu |
+| 8 | iPhone 16 | Olympic medal count | Thế vận hội dành cho người khuyết tật |
+| 9 | Olympic Games Paris 2024 | Toby Keith | Cô đi mà lấy chồng tôi |
+| 10 | Catherine, Princess of Wales | Liam Payne | Phim Mai |
+
+Nguồn: techcrunch.com/2024/12/10/… ; pocket-lint.com/google-year-in-search-2024 ; trends.withgoogle.com/year-in-search/2024/vn
+
+**Việt Nam 2024, Cách làm:** Kẹo chip chip, Hoa bằng kẽm nhung, Da mặt căng bóng, Căn cước công dân cho trẻ dưới 14 tuổi, Căn cước cho trẻ dưới 6 tuổi, Củ kiệu, Tháp nước ngọt, Túi mù, Tháp bánh, Xôi đậu đỏ.
+**Công cụ AI 2024:** dẫn đầu là Gemini, Viggle, Character AI, ChatGPT, kèm PixVerse và Luma. Google chưa công bố đủ 10 mục theo thứ tự (vietnamese.googleblog.com/2024/12/google-cong-bo-xu-huong-tim-kiem-noi.html).
+**Toàn cầu 2024, Tin tức:** U.S. Election, Excessive heat, Olympics, Hurricane Milton, Typhoon No. 10, Iran/Rafah, CrowdStrike, Trump shot, Menendez brothers, Monkeypox (benzinga.com, 12/2024).
+
+### 2026 (tính đến 5/11/2026): **chưa có Year in Search**, Google thường công bố vào đầu tháng 12
+
+- **Việt Nam, quý 2/2026:** chỉ có bài tóm tắt theo chủ đề, không có bảng top 10. Các chủ đề: tra cứu chính sách mới, thời sự, AI thế hệ mới (viettimes.vn/xu-huong-tim-kiem-cua-nguoi-viet-trong-quy-ii…).
+- **Mỹ, hè 2026 (Google "Summergeist"):** "maxxing" cao kỷ lục, "fibermaxxing" +115%, "how to make a hugo spritz at home" +2.200%, black sesame, flip flops, "butter yellow nails", "summerween movies", "books to read on vacation" +110% (blog.google/products-and-platforms/products/search/summergeist-google-trends).
+- **Toàn cầu:** chưa có danh sách chính thức. Các báo cáo nửa đầu 2026 theo từng nước (Nigeria, Brazil) đều có World Cup 2026 đứng đầu.
+
+### TikTok
+
+- **2025, chính thức (TikTok Newsroom):** Music Trend of the Year là *Anxiety* (Doechii), 10,4 triệu video tạo ra, 51,6 tỷ lượt xem. Artist of the Year: KATSEYE. Track of the Year: *Pretty Little Baby* (newsroom.tiktok.com/tiktok-reveals-the-top-artists-and-songs-of-2025).
+- **2025, theo báo chí (không phải danh sách của TikTok):** Group 7, "Nothing beats a Jet2 holiday", 6-7, Holy airball, Labubu, aura farming (USA Today 21/12/2025; Vogue; BBC Bitesize).
+
+**Chưa lấy được:** Year on TikTok 2024 bản chính thức, danh sách YouTube top trending/most searched, Year in Search Anh và Nhật, và danh sách từ khóa trên TikTok Creative Center (trang này cần đăng nhập).
+
+**Rút ra cho kênh:** cả 3 năm, các mục trending ổn định nhất là **công cụ AI** (Việt Nam 2024 và 2025, toàn cầu 2025), **"cách làm" và "là gì"** (đồ ăn, đồ handmade, thủ tục), và **meme hoặc trend AI** (AI action figure, polaroid). Phần lớn còn lại là sự kiện thể thao, chính trị, phim, chỉ nóng ngắn hạn và dễ dính bản quyền. Điều này củng cố hướng số 1 (mẹo AI tiếng Việt) và gợi ý thêm dạng video "Cách làm X" theo mùa (Trung thu, 20/11, Tết).
