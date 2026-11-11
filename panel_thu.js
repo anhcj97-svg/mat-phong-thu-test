@@ -10,6 +10,12 @@
  <div class="huong">${[[3,'↖'],[4,'↑'],[5,'↗'],[2,'←'],[-1,'8 hướng'],[6,'→'],[1,'↙'],[0,'↓'],[7,'↘']].map(([v,t])=>`<button data-a="thu_huong" data-v="${v}">${t}</button>`).join('')}</div>
  <b>Săn thử · vũ khí</b>${nut('',[['Cầm rìu gỗ','axe','wood'],['Cầm rìu đá','axe','stone'],['Cầm rìu đồng','axe','bronze']])}
  ${nut('',[['Hạ 1 con heo (gần MAT nhất)','thu_ha',0],['Hồi sinh tất cả','thu_hoi',0]])}
+ <b>LỬA MA (mới · tập né + đánh)</b><small>Lửa ma lơ lửng phía trên sân. Đi lại gần (~6–10 ô) → nó thấy MAT, bay vòng sang ngang, LẤY ĐÀ rồi LAO ~3,4 ô. Space né đúng lúc chữ "LAO!" hiện = né đẹp. Gậy (chuột trái / J) mỗi nhát −1 máu, bổ / đập / phóng −2; 5 máu thì tan, ~4 giây sau hiện lại.</small>
+ ${nut('ma_so',[['0 con','thu_ma_so',0],['1 con','thu_ma_so',1],['2 con','thu_ma_so',2],['3 con','thu_ma_so',3]])}
+ ${nut('',[['Hạ lửa ma gần nhất','thu_ma_ha',0],['Hồi sinh lửa ma','thu_ma_hoi',0]])}
+ <b>Cỡ lửa ma</b>${nut('ma_co',[['Gốc (43 px)','thu_ma_co',1],['×1,5','thu_ma_co',1.5],['×2','thu_ma_co',2]])}
+ <label><input type="checkbox" data-c="thu_ma_huong"> Lao mọi hướng (xem cả hướng xuống / lên — hình còn yếu)</label>
+ <label><input type="checkbox" data-c="thu_ma_aggro" checked> Lửa ma tấn công (tắt = chỉ lơ lửng)</label>
  <b>Hiệu ứng (VFX thử)</b>${nut('',[['Gió cuộn (phím X)','thu_gio_cuon',0]])}
  <label><input type="checkbox" data-c="thu_gio_tu" checked> Gió tự thổi (9–16 giây 1 lần)</label>
  <b>Tốc độ</b>${nut('toc',[['×1','thu_toc',1],['×0,5','thu_toc',.5],['×0,25','thu_toc',.25],['×0,1','thu_toc',.1]])}
@@ -29,7 +35,7 @@
  const t=document.createElement('button');t.id='mat-toggle';t.textContent='Ẩn bảng';t.onclick=()=>{p.hidden=!p.hidden;t.textContent=p.hidden?'⚙ Bảng':'Ẩn bảng';focusGame();};document.body.append(t);
  const val=v=>v==='true'?true:v==='false'?false:(isNaN(Number(v))?v:Number(v));
  p.querySelectorAll('button[data-a]').forEach(b=>b.onclick=()=>{const a=b.dataset.a;send(a,val(b.dataset.v));
-  if(!['thu_dung','thu_buoc','thu_lai','thu_ha','thu_hoi','axe','thu_gio_cuon'].includes(a))p.querySelectorAll(`button[data-a="${a}"]`).forEach(x=>x.setAttribute('aria-pressed',String(x===b)));
+  if(!['thu_dung','thu_buoc','thu_lai','thu_ha','thu_hoi','axe','thu_gio_cuon','thu_ma_ha','thu_ma_hoi'].includes(a))p.querySelectorAll(`button[data-a="${a}"]`).forEach(x=>x.setAttribute('aria-pressed',String(x===b)));
   b.blur();focusGame();});
  p.querySelectorAll('input[data-c]').forEach(c=>c.onchange=()=>{send(c.dataset.c,c.checked);c.blur();focusGame();});
  window.matState=raw=>{try{const s=JSON.parse(raw);if(s.fps!==undefined)document.getElementById('tap-fps').textContent=`FPS: ${Math.round(s.fps)} · ${s.ms.toFixed(1)} ms/khung`;}catch{}};
