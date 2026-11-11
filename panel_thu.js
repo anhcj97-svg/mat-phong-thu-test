@@ -14,8 +14,9 @@
  ${nut('ma_so',[['0 con','thu_ma_so',0],['1 con','thu_ma_so',1],['2 con','thu_ma_so',2],['3 con','thu_ma_so',3]])}
  ${nut('',[['Hạ lửa ma gần nhất','thu_ma_ha',0],['Hồi sinh lửa ma','thu_ma_hoi',0]])}
  <b>Cỡ lửa ma</b>${nut('ma_co',[['Gốc (43 px)','thu_ma_co',1],['×1,5','thu_ma_co',1.5],['×2','thu_ma_co',2]])}
+ <b>Xem lửa ma ban đêm</b>${nut('gio',[['Ban đêm (21h)','thu_gio',21],['Ban ngày (7h)','thu_gio',7]])}
  <b>VFX lửa ma</b>${nut('ma_vfx',[['Nhẹ','thu_ma_vfx_muc',.6],['Vừa','thu_ma_vfx_muc',1],['Mạnh','thu_ma_vfx_muc',1.5]])}
- <label><input type="checkbox" data-c="thu_ma_vfx" checked> Bật VFX lửa ma (viền sáng theo hình, tàn lửa nhỏ, nhịp tim, ánh sáng đất nhẹ, bóng ma khi lao, tia lửa khi trúng)</label>
+ <label><input type="checkbox" data-c="thu_ma_vfx" checked> Bật VFX lửa ma (hào quang theo hình + đèn xanh chiếu đất, viền sáng, tàn lửa nhỏ, nhịp tim, bóng ma khi lao, tia lửa khi trúng)</label>
  <label><input type="checkbox" data-c="thu_ma_huong"> Lao mọi hướng (xem cả hướng xuống / lên — hình còn yếu)</label>
  <label><input type="checkbox" data-c="thu_ma_danh_moi" checked> Đòn lao MỚI (lấy đà → sao chổi → lóe → thu về; tắt = đòn cũ)</label>
  <label><input type="checkbox" data-c="thu_ma_chet_sprite" checked> Chết = animation tàn lửa (tắt = chết tạm bằng shader)</label>
