@@ -10,7 +10,9 @@
  <div class="huong">${[[3,'↖'],[4,'↑'],[5,'↗'],[2,'←'],[-1,'8 hướng'],[6,'→'],[1,'↙'],[0,'↓'],[7,'↘']].map(([v,t])=>`<button data-a="thu_huong" data-v="${v}">${t}</button>`).join('')}</div>
  <b>Săn thử · vũ khí</b>${nut('',[['Cầm rìu gỗ','axe','wood'],['Cầm rìu đá','axe','stone'],['Cầm rìu đồng','axe','bronze']])}
  ${nut('',[['Hạ 1 con heo (gần MAT nhất)','thu_ha',0],['Hồi sinh tất cả','thu_hoi',0]])}
- <b>LỬA MA (xanh + ĐỎ mới · tập né + đánh)</b><small>Lửa ma lơ lửng phía trên sân. Đi lại gần (~6–10 ô) → nó thấy MAT, bay vòng sang ngang, LẤY ĐÀ (thân tối lại, lõi bùng trắng) rồi LAO ~3,4 ô. Không có vệt báo trên đất: nhìn chính con ma — lõi bùng trắng là lúc Space né. Gậy (chuột trái / J) mỗi nhát −1 máu, bổ / đập / phóng −2; 5 máu thì tan, ~4 giây sau hiện lại.</small>
+ <b>HEO RỪNG thật (thử đòn đánh · mới)</b>${nut('heo_rung',[['Không','thu_heo_rung',0],['1 con','thu_heo_rung',1],['2 con','thu_heo_rung',2]])}<small>Đưa heo rừng (bộ não húc) vào sân, giữ nguyên thỏ / gà. Vụt gậy (J) hoặc chém rìu trúng: heo giật ngang + nước mắt tròn bắn ra + bụi chân + sao nổ chỗ chạm + "Éc!" (chưa có hình heo bị đánh riêng). Heo húc trúng → MAT chịu đòn.</small>
+ <label><input type="checkbox" data-c="thu_mat_dau" checked> MAT chịu đòn có hình (giật lùi 2 khung, khóa điều khiển 0,26 s; tắt = chỉ đẩy lùi như cũ)</label>
+ <b>LỬA MA (xanh + ĐỎ thẫm · tập né + đánh · bị đánh: giật, lùi, mảnh lửa bật ra)</b><small>Lửa ma lơ lửng phía trên sân. Đi lại gần (~6–10 ô) → nó thấy MAT, bay vòng sang ngang, LẤY ĐÀ (thân tối lại, lõi bùng trắng) rồi LAO ~3,4 ô. Không có vệt báo trên đất: nhìn chính con ma — lõi bùng trắng là lúc Space né. Gậy (chuột trái / J) mỗi nhát −1 máu, bổ / đập / phóng −2; 5 máu thì tan, ~4 giây sau hiện lại.</small>
  ${nut('ma_so',[['0 con','thu_ma_so',0],['1 con','thu_ma_so',1],['2 con','thu_ma_so',2],['3 con','thu_ma_so',3]])}<small>Mặc định: 2 con — 1 đỏ + 1 xanh. Chọn màu bên dưới (sinh lại).</small>
  ${nut('',[['Hạ lửa ma gần nhất','thu_ma_ha',0],['Hồi sinh lửa ma','thu_ma_hoi',0]])}
  <b>Màu lửa ma</b>${nut('ma_mau',[['Xanh','thu_ma_mau','xanh'],['Đỏ','thu_ma_mau','do'],['Cả hai (đỏ + xanh)','thu_ma_mau','ca_hai']])}
