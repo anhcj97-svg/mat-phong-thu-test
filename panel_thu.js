@@ -17,6 +17,8 @@
  <b>VFX lửa ma</b>${nut('ma_vfx',[['Nhẹ','thu_ma_vfx_muc',.6],['Vừa','thu_ma_vfx_muc',1],['Mạnh','thu_ma_vfx_muc',1.5]])}
  <label><input type="checkbox" data-c="thu_ma_vfx" checked> Bật VFX lửa ma (hào quang, vệt báo trước, bóng ma, vệt sao chổi, tia lửa, lửa tàn khi chết)</label>
  <label><input type="checkbox" data-c="thu_ma_huong"> Lao mọi hướng (xem cả hướng xuống / lên — hình còn yếu)</label>
+ <label><input type="checkbox" data-c="thu_ma_danh_moi" checked> Đòn lao MỚI (lấy đà → sao chổi → lóe → thu về; tắt = đòn cũ)</label>
+ <label><input type="checkbox" data-c="thu_ma_chet_sprite" checked> Chết = animation tàn lửa (tắt = chết tạm bằng shader)</label>
  <label><input type="checkbox" data-c="thu_ma_aggro" checked> Lửa ma tấn công (tắt = chỉ lơ lửng)</label>
  <b>Hiệu ứng (VFX thử)</b>${nut('',[['Gió cuộn (phím X)','thu_gio_cuon',0]])}
  <label><input type="checkbox" data-c="thu_gio_tu" checked> Gió tự thổi (9–16 giây 1 lần)</label>
