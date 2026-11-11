@@ -10,12 +10,12 @@
  <div class="huong">${[[3,'↖'],[4,'↑'],[5,'↗'],[2,'←'],[-1,'8 hướng'],[6,'→'],[1,'↙'],[0,'↓'],[7,'↘']].map(([v,t])=>`<button data-a="thu_huong" data-v="${v}">${t}</button>`).join('')}</div>
  <b>Săn thử · vũ khí</b>${nut('',[['Cầm rìu gỗ','axe','wood'],['Cầm rìu đá','axe','stone'],['Cầm rìu đồng','axe','bronze']])}
  ${nut('',[['Hạ 1 con heo (gần MAT nhất)','thu_ha',0],['Hồi sinh tất cả','thu_hoi',0]])}
- <b>LỬA MA (mới · tập né + đánh)</b><small>Lửa ma lơ lửng phía trên sân. Đi lại gần (~6–10 ô) → nó thấy MAT, bay vòng sang ngang, LẤY ĐÀ rồi LAO ~3,4 ô. Space né đúng lúc chữ "LAO!" hiện = né đẹp. Gậy (chuột trái / J) mỗi nhát −1 máu, bổ / đập / phóng −2; 5 máu thì tan, ~4 giây sau hiện lại.</small>
+ <b>LỬA MA (mới · tập né + đánh)</b><small>Lửa ma lơ lửng phía trên sân. Đi lại gần (~6–10 ô) → nó thấy MAT, bay vòng sang ngang, LẤY ĐÀ (lửa bị hút vào lõi, thân tối lại, lõi bùng trắng) rồi LAO ~3,4 ô. Không có vệt báo trên đất: nhìn chính con ma — lõi bùng trắng là lúc Space né. Gậy (chuột trái / J) mỗi nhát −1 máu, bổ / đập / phóng −2; 5 máu thì tan, ~4 giây sau hiện lại.</small>
  ${nut('ma_so',[['0 con','thu_ma_so',0],['1 con','thu_ma_so',1],['2 con','thu_ma_so',2],['3 con','thu_ma_so',3]])}
  ${nut('',[['Hạ lửa ma gần nhất','thu_ma_ha',0],['Hồi sinh lửa ma','thu_ma_hoi',0]])}
  <b>Cỡ lửa ma</b>${nut('ma_co',[['Gốc (43 px)','thu_ma_co',1],['×1,5','thu_ma_co',1.5],['×2','thu_ma_co',2]])}
  <b>VFX lửa ma</b>${nut('ma_vfx',[['Nhẹ','thu_ma_vfx_muc',.6],['Vừa','thu_ma_vfx_muc',1],['Mạnh','thu_ma_vfx_muc',1.5]])}
- <label><input type="checkbox" data-c="thu_ma_vfx" checked> Bật VFX lửa ma (hào quang, vệt báo trước, bóng ma, vệt sao chổi, tia lửa, lửa tàn khi chết)</label>
+ <label><input type="checkbox" data-c="thu_ma_vfx" checked> Bật VFX lửa ma (lửa sống quanh thân, nhịp tim, khói xoắn, ánh lửa dưới đất, dải lửa khi lao, bung lửa khi trúng, lửa lụi khi chết)</label>
  <label><input type="checkbox" data-c="thu_ma_huong"> Lao mọi hướng (xem cả hướng xuống / lên — hình còn yếu)</label>
  <label><input type="checkbox" data-c="thu_ma_danh_moi" checked> Đòn lao MỚI (lấy đà → sao chổi → lóe → thu về; tắt = đòn cũ)</label>
  <label><input type="checkbox" data-c="thu_ma_chet_sprite" checked> Chết = animation tàn lửa (tắt = chết tạm bằng shader)</label>
