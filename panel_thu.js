@@ -10,9 +10,10 @@
  <div class="huong">${[[3,'↖'],[4,'↑'],[5,'↗'],[2,'←'],[-1,'8 hướng'],[6,'→'],[1,'↙'],[0,'↓'],[7,'↘']].map(([v,t])=>`<button data-a="thu_huong" data-v="${v}">${t}</button>`).join('')}</div>
  <b>Săn thử · vũ khí</b>${nut('',[['Cầm rìu gỗ','axe','wood'],['Cầm rìu đá','axe','stone'],['Cầm rìu đồng','axe','bronze']])}
  ${nut('',[['Hạ 1 con heo (gần MAT nhất)','thu_ha',0],['Hồi sinh tất cả','thu_hoi',0]])}
- <b>LỬA MA (mới · tập né + đánh)</b><small>Lửa ma lơ lửng phía trên sân. Đi lại gần (~6–10 ô) → nó thấy MAT, bay vòng sang ngang, LẤY ĐÀ (thân tối lại, lõi bùng trắng) rồi LAO ~3,4 ô. Không có vệt báo trên đất: nhìn chính con ma — lõi bùng trắng là lúc Space né. Gậy (chuột trái / J) mỗi nhát −1 máu, bổ / đập / phóng −2; 5 máu thì tan, ~4 giây sau hiện lại.</small>
- ${nut('ma_so',[['0 con','thu_ma_so',0],['1 con','thu_ma_so',1],['2 con','thu_ma_so',2],['3 con','thu_ma_so',3]])}
+ <b>LỬA MA (xanh + ĐỎ mới · tập né + đánh)</b><small>Lửa ma lơ lửng phía trên sân. Đi lại gần (~6–10 ô) → nó thấy MAT, bay vòng sang ngang, LẤY ĐÀ (thân tối lại, lõi bùng trắng) rồi LAO ~3,4 ô. Không có vệt báo trên đất: nhìn chính con ma — lõi bùng trắng là lúc Space né. Gậy (chuột trái / J) mỗi nhát −1 máu, bổ / đập / phóng −2; 5 máu thì tan, ~4 giây sau hiện lại.</small>
+ ${nut('ma_so',[['0 con','thu_ma_so',0],['1 con','thu_ma_so',1],['2 con','thu_ma_so',2],['3 con','thu_ma_so',3]])}<small>Mặc định: 2 con — 1 đỏ + 1 xanh. Chọn màu bên dưới (sinh lại).</small>
  ${nut('',[['Hạ lửa ma gần nhất','thu_ma_ha',0],['Hồi sinh lửa ma','thu_ma_hoi',0]])}
+ <b>Màu lửa ma</b>${nut('ma_mau',[['Xanh','thu_ma_mau','xanh'],['Đỏ','thu_ma_mau','do'],['Cả hai (đỏ + xanh)','thu_ma_mau','ca_hai']])}
  <b>Cỡ lửa ma</b>${nut('ma_co',[['Gốc (43 px)','thu_ma_co',1],['×1,5','thu_ma_co',1.5],['×2','thu_ma_co',2]])}
  <b>Xem lửa ma ban đêm</b>${nut('gio',[['Ban đêm (21h)','thu_gio',21],['Ban ngày (7h)','thu_gio',7]])}
  <b>VFX lửa ma</b>${nut('ma_vfx',[['Nhẹ','thu_ma_vfx_muc',.6],['Vừa','thu_ma_vfx_muc',1],['Mạnh','thu_ma_vfx_muc',1.5]])}
